@@ -1,0 +1,19 @@
+@import '../../../styles/global.css';
+
+.side-bar-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.side-bar-menu li {
+    margin-bottom: 10px;
+}
+
+.side-bar-menu a {
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}

@@ -8,6 +8,7 @@
     --font-family: 'Roboto', sans-serif;
     --font-size: 1rem;
     --font-weight: 400;
+    --secondary-bg-color: #120f11;
 
 
     --color-bg: var(--background-color);
@@ -19,6 +20,7 @@
     --color-font: var(--font-family);
     --color-font-size: var(--font-size);
     --color-font-weight: var(--font-weight);
+    --color-sidebar-bg: var(--secondary-color);
 
 
     --full-width: 100%;
@@ -31,4 +33,9 @@
     --eighth-height: 12.5%;
     --sixteenth-width: 6.25%;
     --sixteenth-height: 6.25%;
+}
+
+.content {
+    display: flex;
+    min-height: 80vh;
 }

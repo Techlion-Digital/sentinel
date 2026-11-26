@@ -1,0 +1,26 @@
+@import '../../../styles/global.css';
+
+.main-menu {
+    float: right;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu a {
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: var(--color-secondary);
+    }
+}

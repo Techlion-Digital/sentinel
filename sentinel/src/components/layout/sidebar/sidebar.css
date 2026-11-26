@@ -1,0 +1,7 @@
+@import '../../../styles/global.css';
+
+.sidebar {
+    flex: 0 0 190px;
+    background-color: var(--secondary-bg-color);
+    padding: 20px;
+}

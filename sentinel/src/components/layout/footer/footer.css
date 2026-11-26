@@ -1,0 +1,7 @@
+@import '../../../styles/global.css';
+
+.footer {
+    min-width: var(--full-width);
+    padding: 20px 20px;
+    min-height: 10vh;
+}
