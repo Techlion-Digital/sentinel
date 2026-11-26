@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306 48" fill="none" role="img" aria-labelledby="title">
+<title id="title">Sentinel</title>
+<g fill="#E5E7EB" transform="translate(3 8) skewX(-9)">
+<path d="M36 0H8L0 8V18L6 23H25V26H0V32H28L36 24V17L30 12H11V6H36Z"/>
+<path d="M40 0H73V6H50V12H69V19H50V26H73V32H40Z"/>
+<path d="M78 0H87L108 19V0H117V32H108L87 13V32H78Z"/>
+<path d="M121 0H158V7H144V32H135V7H121Z"/>
+<path d="M163 0H173V32H163Z"/>
+<path d="M178 0H187L208 19V0H217V32H208L187 13V32H178Z"/>
+<path d="M222 0H255V6H232V12H251V19H232V26H255V32H222Z"/>
+<path d="M260 0H270V25H294V32H260Z"/>
+</g>
+<path fill="#F43F50" d="M167 20H177L176 27H166Z"/>
+</svg>
