@@ -1,9 +1,10 @@
 import './main-content.css';
+import { Outlet } from 'react-router';
 
 function MainContent() {
     return (
         <div id="main-content" className="main-content">
-            <h1>MainContent</h1>
+            <Outlet />
         </div>
     );
 }

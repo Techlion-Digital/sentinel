@@ -1,14 +1,14 @@
 :root {
-    --background-color: #862B62;
-    --text-color: #D4EE9B;
-    --primary-color: #7E9F34;
-    --secondary-color: #A65084;
-    --success-color: #3A8D2D;
-    --danger-color: #A6363E;
+    --background-color: #1a1a23;
+    --text-color: #F4E4B2;
+    --primary-color: #7EABD4;
+    --secondary-color: #5E7EA8;
+    --success-color: #2E9460;
+    --danger-color: #C44532;
     --font-family: 'Roboto', sans-serif;
     --font-size: 1rem;
     --font-weight: 400;
-    --secondary-bg-color: #120f11;
+    --secondary-bg-color: #282832;
 
 
     --color-bg: var(--background-color);
@@ -21,6 +21,7 @@
     --color-font-size: var(--font-size);
     --color-font-weight: var(--font-weight);
     --color-sidebar-bg: var(--secondary-color);
+    --color-content-bg: #1e1e24;
 
 
     --full-width: 100%;
@@ -35,7 +36,19 @@
     --sixteenth-height: 6.25%;
 }
 
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+
+}
+
 .content {
     display: flex;
     min-height: 80vh;
+    background-color: var(--color-content-bg);
+}
+
+#app {
+    background-color: var(--color-bg);
 }
