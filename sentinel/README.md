@@ -1,3 +1,0 @@
-SENTINEL 
-
-Cybersecurity Dashboard
