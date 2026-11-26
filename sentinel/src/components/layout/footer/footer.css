@@ -5,3 +5,9 @@
     padding: 20px 20px;
     min-height: 10vh;
 }
+
+.footer p {
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: left;
+}
