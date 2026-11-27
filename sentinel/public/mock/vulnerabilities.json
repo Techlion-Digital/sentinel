@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "name": "Exposed administrative interface",
+    "description": "An administrative interface is reachable from an untrusted network.",
+    "severity": "critical",
+    "status": "pending",
+    "createdAt": "2026-11-21T03:01:00Z",
+    "updatedAt": "2026-11-22T02:01:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Exposed administrative interface \u2014 secondary instance",
+    "description": "An administrative interface is reachable from an untrusted network.",
+    "severity": "critical",
+    "status": "approved",
+    "createdAt": "2026-11-08T04:47:00Z",
+    "updatedAt": "2026-11-08T07:47:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Unpatched remote access service",
+    "description": "A simulated remote access service is missing a security update.",
+    "severity": "critical",
+    "status": "pending",
+    "createdAt": "2026-11-18T02:37:00Z",
+    "updatedAt": "2026-11-18T15:37:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Unpatched remote access service \u2014 secondary instance",
+    "description": "A simulated remote access service is missing a security update.",
+    "severity": "critical",
+    "status": "approved",
+    "createdAt": "2026-11-03T06:14:00Z",
+    "updatedAt": "2026-11-03T22:14:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Weak service account credentials",
+    "description": "A service account uses credentials that do not meet policy.",
+    "severity": "high",
+    "status": "approved",
+    "createdAt": "2026-11-18T06:45:00Z",
+    "updatedAt": "2026-11-19T02:45:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Weak service account credentials \u2014 secondary instance",
+    "description": "A service account uses credentials that do not meet policy.",
+    "severity": "high",
+    "status": "pending",
+    "createdAt": "2026-11-14T07:28:00Z",
+    "updatedAt": "2026-11-15T01:28:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Missing multifactor authentication",
+    "description": "An administrative account does not enforce MFA.",
+    "severity": "high",
+    "status": "pending",
+    "createdAt": "2026-11-01T05:44:00Z",
+    "updatedAt": "2026-11-01T18:44:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Missing multifactor authentication \u2014 secondary instance",
+    "description": "An administrative account does not enforce MFA.",
+    "severity": "high",
+    "status": "pending",
+    "createdAt": "2026-11-05T06:48:00Z",
+    "updatedAt": "2026-11-05T16:48:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Outdated TLS configuration",
+    "description": "A service permits deprecated TLS protocol versions.",
+    "severity": "medium",
+    "status": "approved",
+    "createdAt": "2026-11-13T03:22:00Z",
+    "updatedAt": "2026-11-13T14:22:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Outdated TLS configuration \u2014 secondary instance",
+    "description": "A service permits deprecated TLS protocol versions.",
+    "severity": "medium",
+    "status": "pending",
+    "createdAt": "2026-11-02T23:29:00Z",
+    "updatedAt": "2026-11-03T16:29:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Excessive directory permissions",
+    "description": "A shared directory grants broader access than required.",
+    "severity": "medium",
+    "status": "approved",
+    "createdAt": "2026-11-13T02:35:00Z",
+    "updatedAt": "2026-11-13T11:35:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Excessive directory permissions \u2014 secondary instance",
+    "description": "A shared directory grants broader access than required.",
+    "severity": "medium",
+    "status": "approved",
+    "createdAt": "2026-11-20T11:36:00Z",
+    "updatedAt": "2026-11-20T17:36:00Z"
+  },
+  {
+    "id": 13,
+    "name": "Missing security headers",
+    "description": "A web application lacks recommended response headers.",
+    "severity": "low",
+    "status": "pending",
+    "createdAt": "2026-11-02T21:14:00Z",
+    "updatedAt": "2026-11-03T21:14:00Z"
+  },
+  {
+    "id": 14,
+    "name": "Missing security headers \u2014 secondary instance",
+    "description": "A web application lacks recommended response headers.",
+    "severity": "low",
+    "status": "pending",
+    "createdAt": "2026-11-03T07:55:00Z",
+    "updatedAt": "2026-11-03T10:55:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Verbose error messages",
+    "description": "Application errors disclose unnecessary implementation details.",
+    "severity": "low",
+    "status": "pending",
+    "createdAt": "2026-11-15T20:53:00Z",
+    "updatedAt": "2026-11-16T07:53:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Verbose error messages \u2014 secondary instance",
+    "description": "Application errors disclose unnecessary implementation details.",
+    "severity": "low",
+    "status": "approved",
+    "createdAt": "2026-11-12T06:42:00Z",
+    "updatedAt": "2026-11-12T14:42:00Z"
+  },
+  {
+    "id": 17,
+    "name": "Unrestricted management port",
+    "description": "A management service is accessible outside its intended network segment.",
+    "severity": "high",
+    "status": "approved",
+    "createdAt": "2026-11-22T20:04:00Z",
+    "updatedAt": "2026-11-23T15:04:00Z"
+  },
+  {
+    "id": 18,
+    "name": "Unrestricted management port \u2014 secondary instance",
+    "description": "A management service is accessible outside its intended network segment.",
+    "severity": "high",
+    "status": "pending",
+    "createdAt": "2026-11-18T23:15:00Z",
+    "updatedAt": "2026-11-19T04:15:00Z"
+  },
+  {
+    "id": 19,
+    "name": "Insecure session cookie configuration",
+    "description": "A session cookie lacks recommended security attributes.",
+    "severity": "medium",
+    "status": "pending",
+    "createdAt": "2026-11-09T20:44:00Z",
+    "updatedAt": "2026-11-10T13:44:00Z"
+  },
+  {
+    "id": 20,
+    "name": "Insecure session cookie configuration \u2014 secondary instance",
+    "description": "A session cookie lacks recommended security attributes.",
+    "severity": "medium",
+    "status": "approved",
+    "createdAt": "2026-11-11T01:14:00Z",
+    "updatedAt": "2026-11-11T02:14:00Z"
+  },
+  {
+    "id": 21,
+    "name": "Unpatched application dependency",
+    "description": "An application dependency requires a security update.",
+    "severity": "high",
+    "status": "rejected",
+    "createdAt": "2026-11-13T08:04:00Z",
+    "updatedAt": "2026-11-13T14:04:00Z"
+  },
+  {
+    "id": 22,
+    "name": "Unpatched application dependency \u2014 secondary instance",
+    "description": "An application dependency requires a security update.",
+    "severity": "high",
+    "status": "approved",
+    "createdAt": "2026-11-19T22:20:00Z",
+    "updatedAt": "2026-11-20T04:20:00Z"
+  },
+  {
+    "id": 23,
+    "name": "Exposed diagnostic endpoint",
+    "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
+    "severity": "low",
+    "status": "pending",
+    "createdAt": "2026-11-13T20:29:00Z",
+    "updatedAt": "2026-11-14T00:29:00Z"
+  },
+  {
+    "id": 24,
+    "name": "Exposed diagnostic endpoint \u2014 secondary instance",
+    "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
+    "severity": "low",
+    "status": "pending",
+    "createdAt": "2026-11-08T23:35:00Z",
+    "updatedAt": "2026-11-09T16:35:00Z"
+  }
+]
