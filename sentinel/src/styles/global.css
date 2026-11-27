@@ -52,3 +52,12 @@ body {
 #app {
     background-color: var(--color-bg);
 }
+
+.primary-button {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    font-weight:bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
