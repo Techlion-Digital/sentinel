@@ -1,7 +1,6 @@
 import Header from '../components/layout/header/Header'
 import MainContent from '../components/layout/main-content/MainContent'
 import Footer from '../components/layout/footer/Footer'
-import Sidebar from '../components/layout/sidebar/Sidebar'
 
 
 function App() {

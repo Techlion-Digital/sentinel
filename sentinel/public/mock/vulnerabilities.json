@@ -14,7 +14,7 @@
     "name": "Exposed administrative interface — secondary instance",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-08T04:47:00Z",
     "updatedAt": "2026-11-08T07:47:00Z"
@@ -34,7 +34,7 @@
     "name": "Unpatched remote access service — secondary instance",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-11-03T06:14:00Z",
     "updatedAt": "2026-11-03T22:14:00Z"
@@ -44,7 +44,7 @@
     "name": "Weak service account credentials",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-18T06:45:00Z",
     "updatedAt": "2026-11-19T02:45:00Z"
@@ -84,7 +84,7 @@
     "name": "Outdated TLS configuration",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-13T03:22:00Z",
     "updatedAt": "2026-11-13T14:22:00Z"
@@ -104,7 +104,7 @@
     "name": "Excessive directory permissions",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-13T02:35:00Z",
     "updatedAt": "2026-11-13T11:35:00Z"
@@ -114,7 +114,7 @@
     "name": "Excessive directory permissions — secondary instance",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-20T11:36:00Z",
     "updatedAt": "2026-11-20T17:36:00Z"
@@ -154,7 +154,7 @@
     "name": "Verbose error messages — secondary instance",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-12T06:42:00Z",
     "updatedAt": "2026-11-12T14:42:00Z"
@@ -164,7 +164,7 @@
     "name": "Unrestricted management port",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-22T20:04:00Z",
     "updatedAt": "2026-11-23T15:04:00Z"
@@ -194,7 +194,7 @@
     "name": "Insecure session cookie configuration — secondary instance",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-11T01:14:00Z",
     "updatedAt": "2026-11-11T02:14:00Z"
@@ -214,7 +214,7 @@
     "name": "Unpatched application dependency — secondary instance",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-19T22:20:00Z",
     "updatedAt": "2026-11-20T04:20:00Z"
@@ -244,7 +244,7 @@
     "name": "Excessive directory permissions — instance 25",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-31T02:57:00Z",
     "updatedAt": "2026-11-01T19:57:00Z"
@@ -254,7 +254,7 @@
     "name": "Unpatched remote access service — instance 26",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-20T19:46:00Z",
     "updatedAt": "2026-09-20T22:46:00Z"
@@ -274,7 +274,7 @@
     "name": "Unpatched remote access service — instance 28",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-08-11T20:09:00Z",
     "updatedAt": "2026-08-13T10:09:00Z"
@@ -294,7 +294,7 @@
     "name": "Weak service account credentials — instance 30",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-03T03:31:00Z",
     "updatedAt": "2026-08-04T01:31:00Z"
@@ -304,7 +304,7 @@
     "name": "Weak service account credentials — instance 31",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-02T02:16:00Z",
     "updatedAt": "2026-08-02T14:16:00Z"
@@ -324,7 +324,7 @@
     "name": "Outdated TLS configuration — instance 33",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-18T08:55:00Z",
     "updatedAt": "2026-08-18T20:55:00Z"
@@ -334,7 +334,7 @@
     "name": "Outdated TLS configuration — instance 34",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-09T09:20:00Z",
     "updatedAt": "2026-08-09T13:20:00Z"
@@ -344,7 +344,7 @@
     "name": "Exposed administrative interface — instance 35",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-05T00:20:00Z",
     "updatedAt": "2026-11-06T03:20:00Z"
@@ -354,7 +354,7 @@
     "name": "Exposed diagnostic endpoint — instance 36",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-15T00:48:00Z",
     "updatedAt": "2026-11-16T19:48:00Z"
@@ -384,7 +384,7 @@
     "name": "Unpatched application dependency — instance 39",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-10T09:29:00Z",
     "updatedAt": "2026-08-12T02:29:00Z"
@@ -394,7 +394,7 @@
     "name": "Unpatched remote access service — instance 40",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-26T03:34:00Z",
     "updatedAt": "2026-08-26T03:34:00Z"
@@ -424,7 +424,7 @@
     "name": "Missing multifactor authentication — instance 43",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-24T20:17:00Z",
     "updatedAt": "2026-11-26T02:17:00Z"
@@ -444,7 +444,7 @@
     "name": "Missing security headers — instance 45",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-08T08:35:00Z",
     "updatedAt": "2026-09-08T19:35:00Z"
@@ -454,7 +454,7 @@
     "name": "Weak service account credentials — instance 46",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-05T23:16:00Z",
     "updatedAt": "2026-11-06T05:16:00Z"
@@ -484,7 +484,7 @@
     "name": "Missing security headers — instance 49",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-23T14:08:00Z",
     "updatedAt": "2026-10-23T21:08:00Z"
@@ -494,7 +494,7 @@
     "name": "Weak service account credentials — instance 50",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-28T11:58:00Z",
     "updatedAt": "2026-10-29T03:58:00Z"
@@ -504,7 +504,7 @@
     "name": "Excessive directory permissions — instance 51",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-07T22:28:00Z",
     "updatedAt": "2026-11-09T20:28:00Z"
@@ -524,7 +524,7 @@
     "name": "Outdated TLS configuration — instance 53",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-20T03:50:00Z",
     "updatedAt": "2026-10-20T22:50:00Z"
@@ -544,7 +544,7 @@
     "name": "Unpatched remote access service — instance 55",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-23T02:04:00Z",
     "updatedAt": "2026-08-24T05:04:00Z"
@@ -554,7 +554,7 @@
     "name": "Outdated TLS configuration — instance 56",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-04T23:38:00Z",
     "updatedAt": "2026-08-05T01:38:00Z"
@@ -564,7 +564,7 @@
     "name": "Verbose error messages — instance 57",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-14T19:44:00Z",
     "updatedAt": "2026-10-15T08:44:00Z"
@@ -574,7 +574,7 @@
     "name": "Insecure session cookie configuration — instance 58",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-17T13:34:00Z",
     "updatedAt": "2026-10-18T06:34:00Z"
@@ -594,7 +594,7 @@
     "name": "Excessive directory permissions — instance 60",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-11T12:32:00Z",
     "updatedAt": "2026-10-11T14:32:00Z"
@@ -604,7 +604,7 @@
     "name": "Insecure session cookie configuration — instance 61",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-15T19:21:00Z",
     "updatedAt": "2026-08-16T03:21:00Z"
@@ -614,7 +614,7 @@
     "name": "Exposed diagnostic endpoint — instance 62",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-12T06:02:00Z",
     "updatedAt": "2026-09-12T15:02:00Z"
@@ -634,7 +634,7 @@
     "name": "Weak service account credentials — instance 64",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-16T00:18:00Z",
     "updatedAt": "2026-11-17T21:18:00Z"
@@ -654,7 +654,7 @@
     "name": "Missing multifactor authentication — instance 66",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-08T04:40:00Z",
     "updatedAt": "2026-08-09T06:40:00Z"
@@ -664,7 +664,7 @@
     "name": "Insecure session cookie configuration — instance 67",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-23T22:39:00Z",
     "updatedAt": "2026-10-24T22:39:00Z"
@@ -694,7 +694,7 @@
     "name": "Excessive directory permissions — instance 70",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-18T02:02:00Z",
     "updatedAt": "2026-08-19T05:02:00Z"
@@ -714,7 +714,7 @@
     "name": "Verbose error messages — instance 72",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-19T15:31:00Z",
     "updatedAt": "2026-09-19T20:31:00Z"
@@ -744,7 +744,7 @@
     "name": "Unpatched remote access service — instance 75",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-31T19:19:00Z",
     "updatedAt": "2026-10-31T23:19:00Z"
@@ -754,7 +754,7 @@
     "name": "Missing multifactor authentication — instance 76",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-11T22:52:00Z",
     "updatedAt": "2026-11-12T03:52:00Z"
@@ -794,7 +794,7 @@
     "name": "Weak service account credentials — instance 80",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-18T21:57:00Z",
     "updatedAt": "2026-08-20T20:57:00Z"
@@ -804,7 +804,7 @@
     "name": "Missing security headers — instance 81",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-27T12:34:00Z",
     "updatedAt": "2026-10-28T08:34:00Z"
@@ -814,7 +814,7 @@
     "name": "Exposed administrative interface — instance 82",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-15T16:59:00Z",
     "updatedAt": "2026-08-16T16:59:00Z"
@@ -834,7 +834,7 @@
     "name": "Outdated TLS configuration — instance 84",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-15T23:17:00Z",
     "updatedAt": "2026-09-16T07:17:00Z"
@@ -844,7 +844,7 @@
     "name": "Exposed diagnostic endpoint — instance 85",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-24T21:46:00Z",
     "updatedAt": "2026-08-25T09:46:00Z"
@@ -884,7 +884,7 @@
     "name": "Insecure session cookie configuration — instance 89",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-18T13:21:00Z",
     "updatedAt": "2026-10-19T10:21:00Z"
@@ -924,7 +924,7 @@
     "name": "Verbose error messages — instance 93",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-10T07:19:00Z",
     "updatedAt": "2026-09-10T10:19:00Z"
@@ -934,7 +934,7 @@
     "name": "Exposed diagnostic endpoint — instance 94",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-25T05:32:00Z",
     "updatedAt": "2026-09-26T14:32:00Z"
@@ -954,7 +954,7 @@
     "name": "Unpatched application dependency — instance 96",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-20T15:08:00Z",
     "updatedAt": "2026-11-21T14:08:00Z"
@@ -994,7 +994,7 @@
     "name": "Insecure session cookie configuration — instance 100",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-27T12:08:00Z",
     "updatedAt": "2026-10-27T16:08:00Z"
@@ -1004,7 +1004,7 @@
     "name": "Weak service account credentials — instance 101",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-20T19:09:00Z",
     "updatedAt": "2026-11-21T22:09:00Z"
@@ -1014,7 +1014,7 @@
     "name": "Weak service account credentials — instance 102",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-05T19:37:00Z",
     "updatedAt": "2026-10-06T22:37:00Z"
@@ -1024,7 +1024,7 @@
     "name": "Unpatched remote access service — instance 103",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-02T16:03:00Z",
     "updatedAt": "2026-09-04T02:03:00Z"
@@ -1044,7 +1044,7 @@
     "name": "Insecure session cookie configuration — instance 105",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-15T12:59:00Z",
     "updatedAt": "2026-08-16T06:59:00Z"
@@ -1054,7 +1054,7 @@
     "name": "Verbose error messages — instance 106",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-23T20:13:00Z",
     "updatedAt": "2026-10-25T01:13:00Z"
@@ -1064,7 +1064,7 @@
     "name": "Weak service account credentials — instance 107",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-02T16:14:00Z",
     "updatedAt": "2026-11-03T23:14:00Z"
@@ -1094,7 +1094,7 @@
     "name": "Missing multifactor authentication — instance 110",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-21T20:39:00Z",
     "updatedAt": "2026-09-22T04:39:00Z"
@@ -1124,7 +1124,7 @@
     "name": "Excessive directory permissions — instance 113",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-02T00:15:00Z",
     "updatedAt": "2026-11-02T01:15:00Z"
@@ -1144,7 +1144,7 @@
     "name": "Insecure session cookie configuration — instance 115",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-15T08:22:00Z",
     "updatedAt": "2026-11-15T23:22:00Z"
@@ -1154,7 +1154,7 @@
     "name": "Missing multifactor authentication — instance 116",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-19T07:19:00Z",
     "updatedAt": "2026-11-19T12:19:00Z"
@@ -1164,7 +1164,7 @@
     "name": "Weak service account credentials — instance 117",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-25T14:05:00Z",
     "updatedAt": "2026-11-26T19:05:00Z"
@@ -1224,7 +1224,7 @@
     "name": "Missing multifactor authentication — instance 123",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-03T15:34:00Z",
     "updatedAt": "2026-10-05T01:34:00Z"
@@ -1294,7 +1294,7 @@
     "name": "Verbose error messages — instance 130",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-18T06:30:00Z",
     "updatedAt": "2026-08-19T23:30:00Z"
@@ -1304,7 +1304,7 @@
     "name": "Insecure session cookie configuration — instance 131",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-19T02:34:00Z",
     "updatedAt": "2026-08-20T18:34:00Z"
@@ -1324,7 +1324,7 @@
     "name": "Missing multifactor authentication — instance 133",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-05T06:48:00Z",
     "updatedAt": "2026-08-05T17:48:00Z"
@@ -1344,7 +1344,7 @@
     "name": "Weak service account credentials — instance 135",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-15T20:41:00Z",
     "updatedAt": "2026-08-17T02:41:00Z"
@@ -1354,7 +1354,7 @@
     "name": "Outdated TLS configuration — instance 136",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-06T06:26:00Z",
     "updatedAt": "2026-11-06T14:26:00Z"
@@ -1374,7 +1374,7 @@
     "name": "Verbose error messages — instance 138",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-08T10:49:00Z",
     "updatedAt": "2026-08-10T08:49:00Z"
@@ -1384,7 +1384,7 @@
     "name": "Outdated TLS configuration — instance 139",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-22T07:12:00Z",
     "updatedAt": "2026-10-22T21:12:00Z"
@@ -1404,7 +1404,7 @@
     "name": "Exposed diagnostic endpoint — instance 141",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-17T20:44:00Z",
     "updatedAt": "2026-08-19T10:44:00Z"
@@ -1414,7 +1414,7 @@
     "name": "Unrestricted management port — instance 142",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-17T21:13:00Z",
     "updatedAt": "2026-10-19T10:13:00Z"
@@ -1424,7 +1424,7 @@
     "name": "Weak service account credentials — instance 143",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-20T22:29:00Z",
     "updatedAt": "2026-09-21T04:29:00Z"
@@ -1434,7 +1434,7 @@
     "name": "Exposed administrative interface — instance 144",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-11-12T08:31:00Z",
     "updatedAt": "2026-11-13T17:31:00Z"
@@ -1444,7 +1444,7 @@
     "name": "Exposed diagnostic endpoint — instance 145",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-07T20:52:00Z",
     "updatedAt": "2026-09-07T22:52:00Z"
@@ -1454,7 +1454,7 @@
     "name": "Excessive directory permissions — instance 146",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-23T22:24:00Z",
     "updatedAt": "2026-10-24T04:24:00Z"
@@ -1514,7 +1514,7 @@
     "name": "Insecure session cookie configuration — instance 152",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-12T05:24:00Z",
     "updatedAt": "2026-08-13T12:24:00Z"
@@ -1564,7 +1564,7 @@
     "name": "Unpatched remote access service — instance 157",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-28T13:44:00Z",
     "updatedAt": "2026-08-29T18:44:00Z"
@@ -1574,7 +1574,7 @@
     "name": "Exposed administrative interface — instance 158",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-11-03T22:53:00Z",
     "updatedAt": "2026-11-04T22:53:00Z"
@@ -1594,7 +1594,7 @@
     "name": "Weak service account credentials — instance 160",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-14T02:34:00Z",
     "updatedAt": "2026-10-15T19:34:00Z"
@@ -1604,7 +1604,7 @@
     "name": "Excessive directory permissions — instance 161",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-04T13:54:00Z",
     "updatedAt": "2026-10-05T21:54:00Z"
@@ -1634,7 +1634,7 @@
     "name": "Outdated TLS configuration — instance 164",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-02T14:41:00Z",
     "updatedAt": "2026-11-02T19:41:00Z"
@@ -1644,7 +1644,7 @@
     "name": "Missing security headers — instance 165",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-12T05:34:00Z",
     "updatedAt": "2026-09-12T07:34:00Z"
@@ -1664,7 +1664,7 @@
     "name": "Missing security headers — instance 167",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-03T20:18:00Z",
     "updatedAt": "2026-10-04T13:18:00Z"
@@ -1674,7 +1674,7 @@
     "name": "Verbose error messages — instance 168",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-22T19:31:00Z",
     "updatedAt": "2026-11-24T17:31:00Z"
@@ -1694,7 +1694,7 @@
     "name": "Missing multifactor authentication — instance 170",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-19T04:05:00Z",
     "updatedAt": "2026-11-21T00:05:00Z"
@@ -1704,7 +1704,7 @@
     "name": "Excessive directory permissions — instance 171",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-17T15:48:00Z",
     "updatedAt": "2026-11-17T18:48:00Z"
@@ -1724,7 +1724,7 @@
     "name": "Unrestricted management port — instance 173",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-20T16:27:00Z",
     "updatedAt": "2026-08-22T08:27:00Z"
@@ -1734,7 +1734,7 @@
     "name": "Exposed administrative interface — instance 174",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-02T13:57:00Z",
     "updatedAt": "2026-08-03T02:57:00Z"
@@ -1764,7 +1764,7 @@
     "name": "Weak service account credentials — instance 177",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-17T08:35:00Z",
     "updatedAt": "2026-10-17T19:35:00Z"
@@ -1774,7 +1774,7 @@
     "name": "Exposed diagnostic endpoint — instance 178",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-30T14:11:00Z",
     "updatedAt": "2026-09-30T14:11:00Z"
@@ -1814,7 +1814,7 @@
     "name": "Unrestricted management port — instance 182",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-03T00:31:00Z",
     "updatedAt": "2026-10-03T13:31:00Z"
@@ -1834,7 +1834,7 @@
     "name": "Missing multifactor authentication — instance 184",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-31T20:16:00Z",
     "updatedAt": "2026-11-01T20:16:00Z"
@@ -1854,7 +1854,7 @@
     "name": "Missing multifactor authentication — instance 186",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-05T13:36:00Z",
     "updatedAt": "2026-09-06T04:36:00Z"
@@ -1874,7 +1874,7 @@
     "name": "Unpatched application dependency — instance 188",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-12T22:59:00Z",
     "updatedAt": "2026-10-13T17:59:00Z"
@@ -1884,7 +1884,7 @@
     "name": "Excessive directory permissions — instance 189",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-07T04:09:00Z",
     "updatedAt": "2026-11-08T00:09:00Z"
@@ -1894,7 +1894,7 @@
     "name": "Outdated TLS configuration — instance 190",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-17T20:48:00Z",
     "updatedAt": "2026-09-19T04:48:00Z"
@@ -1904,7 +1904,7 @@
     "name": "Unpatched remote access service — instance 191",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-24T20:45:00Z",
     "updatedAt": "2026-10-25T12:45:00Z"
@@ -1914,7 +1914,7 @@
     "name": "Verbose error messages — instance 192",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-26T11:12:00Z",
     "updatedAt": "2026-09-27T17:12:00Z"
@@ -1944,7 +1944,7 @@
     "name": "Excessive directory permissions — instance 195",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-08T12:42:00Z",
     "updatedAt": "2026-11-09T17:42:00Z"
@@ -1954,7 +1954,7 @@
     "name": "Excessive directory permissions — instance 196",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-25T11:46:00Z",
     "updatedAt": "2026-08-26T23:46:00Z"
@@ -1994,7 +1994,7 @@
     "name": "Weak service account credentials — instance 200",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-07T00:38:00Z",
     "updatedAt": "2026-09-07T20:38:00Z"
@@ -2024,7 +2024,7 @@
     "name": "Unpatched application dependency — instance 203",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-17T12:57:00Z",
     "updatedAt": "2026-10-17T16:57:00Z"
@@ -2044,7 +2044,7 @@
     "name": "Missing multifactor authentication — instance 205",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-07T00:31:00Z",
     "updatedAt": "2026-08-08T00:31:00Z"
@@ -2074,7 +2074,7 @@
     "name": "Verbose error messages — instance 208",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-14T20:25:00Z",
     "updatedAt": "2026-11-15T07:25:00Z"
@@ -2084,7 +2084,7 @@
     "name": "Verbose error messages — instance 209",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-09T11:06:00Z",
     "updatedAt": "2026-08-09T13:06:00Z"
@@ -2104,7 +2104,7 @@
     "name": "Outdated TLS configuration — instance 211",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-07T17:04:00Z",
     "updatedAt": "2026-09-08T00:04:00Z"
@@ -2114,7 +2114,7 @@
     "name": "Unrestricted management port — instance 212",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-09T19:14:00Z",
     "updatedAt": "2026-09-11T11:14:00Z"
@@ -2144,7 +2144,7 @@
     "name": "Missing security headers — instance 215",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-23T02:24:00Z",
     "updatedAt": "2026-11-24T10:24:00Z"
@@ -2164,7 +2164,7 @@
     "name": "Unpatched application dependency — instance 217",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-01T00:37:00Z",
     "updatedAt": "2026-08-01T00:37:00Z"
@@ -2184,7 +2184,7 @@
     "name": "Exposed diagnostic endpoint — instance 219",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-07T11:49:00Z",
     "updatedAt": "2026-09-07T13:49:00Z"
@@ -2204,7 +2204,7 @@
     "name": "Insecure session cookie configuration — instance 221",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-19T04:58:00Z",
     "updatedAt": "2026-09-19T05:58:00Z"
@@ -2214,7 +2214,7 @@
     "name": "Excessive directory permissions — instance 222",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-06T23:49:00Z",
     "updatedAt": "2026-10-07T20:49:00Z"
@@ -2234,7 +2234,7 @@
     "name": "Unpatched remote access service — instance 224",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-15T17:11:00Z",
     "updatedAt": "2026-11-16T15:11:00Z"
@@ -2244,7 +2244,7 @@
     "name": "Excessive directory permissions — instance 225",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-19T09:48:00Z",
     "updatedAt": "2026-10-20T21:48:00Z"
@@ -2264,7 +2264,7 @@
     "name": "Outdated TLS configuration — instance 227",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-06T05:37:00Z",
     "updatedAt": "2026-09-08T04:37:00Z"
@@ -2284,7 +2284,7 @@
     "name": "Exposed administrative interface — instance 229",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-16T00:43:00Z",
     "updatedAt": "2026-09-17T00:43:00Z"
@@ -2294,7 +2294,7 @@
     "name": "Unrestricted management port — instance 230",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-19T01:41:00Z",
     "updatedAt": "2026-11-19T18:41:00Z"
@@ -2314,7 +2314,7 @@
     "name": "Unpatched remote access service — instance 232",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-04T08:35:00Z",
     "updatedAt": "2026-11-04T21:35:00Z"
@@ -2354,7 +2354,7 @@
     "name": "Unrestricted management port — instance 236",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-16T09:42:00Z",
     "updatedAt": "2026-10-16T14:42:00Z"
@@ -2364,7 +2364,7 @@
     "name": "Unpatched remote access service — instance 237",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-09-06T04:12:00Z",
     "updatedAt": "2026-09-07T06:12:00Z"
@@ -2384,7 +2384,7 @@
     "name": "Weak service account credentials — instance 239",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-25T22:12:00Z",
     "updatedAt": "2026-09-26T17:12:00Z"
@@ -2394,7 +2394,7 @@
     "name": "Verbose error messages — instance 240",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-27T10:42:00Z",
     "updatedAt": "2026-09-29T08:42:00Z"
@@ -2414,7 +2414,7 @@
     "name": "Excessive directory permissions — instance 242",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-29T17:01:00Z",
     "updatedAt": "2026-08-29T18:01:00Z"
@@ -2444,7 +2444,7 @@
     "name": "Missing security headers — instance 245",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-24T10:58:00Z",
     "updatedAt": "2026-10-24T13:58:00Z"
@@ -2454,7 +2454,7 @@
     "name": "Missing security headers — instance 246",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-11T05:09:00Z",
     "updatedAt": "2026-09-11T20:09:00Z"
@@ -2474,7 +2474,7 @@
     "name": "Missing security headers — instance 248",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-06T01:43:00Z",
     "updatedAt": "2026-08-07T12:43:00Z"
@@ -2484,7 +2484,7 @@
     "name": "Excessive directory permissions — instance 249",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-19T08:28:00Z",
     "updatedAt": "2026-08-20T19:28:00Z"
@@ -2514,7 +2514,7 @@
     "name": "Weak service account credentials — instance 252",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-29T05:44:00Z",
     "updatedAt": "2026-09-30T20:44:00Z"
@@ -2524,7 +2524,7 @@
     "name": "Unrestricted management port — instance 253",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-02T01:34:00Z",
     "updatedAt": "2026-11-03T17:34:00Z"
@@ -2534,7 +2534,7 @@
     "name": "Insecure session cookie configuration — instance 254",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-25T12:16:00Z",
     "updatedAt": "2026-11-27T05:16:00Z"
@@ -2594,7 +2594,7 @@
     "name": "Missing multifactor authentication — instance 260",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-15T05:06:00Z",
     "updatedAt": "2026-08-16T10:06:00Z"
@@ -2604,7 +2604,7 @@
     "name": "Excessive directory permissions — instance 261",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-08T21:23:00Z",
     "updatedAt": "2026-08-09T22:23:00Z"
@@ -2624,7 +2624,7 @@
     "name": "Unpatched application dependency — instance 263",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-19T13:11:00Z",
     "updatedAt": "2026-10-19T14:11:00Z"
@@ -2634,7 +2634,7 @@
     "name": "Verbose error messages — instance 264",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-19T20:54:00Z",
     "updatedAt": "2026-11-20T18:54:00Z"
@@ -2644,7 +2644,7 @@
     "name": "Missing security headers — instance 265",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-13T04:14:00Z",
     "updatedAt": "2026-10-13T17:14:00Z"
@@ -2654,7 +2654,7 @@
     "name": "Unpatched application dependency — instance 266",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-25T01:30:00Z",
     "updatedAt": "2026-08-25T08:30:00Z"
@@ -2664,7 +2664,7 @@
     "name": "Insecure session cookie configuration — instance 267",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-31T21:41:00Z",
     "updatedAt": "2026-09-02T09:41:00Z"
@@ -2694,7 +2694,7 @@
     "name": "Exposed diagnostic endpoint — instance 270",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-13T11:57:00Z",
     "updatedAt": "2026-09-13T17:57:00Z"
@@ -2704,7 +2704,7 @@
     "name": "Missing multifactor authentication — instance 271",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-05T17:49:00Z",
     "updatedAt": "2026-11-06T14:49:00Z"
@@ -2744,7 +2744,7 @@
     "name": "Unpatched remote access service — instance 275",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-11-25T03:24:00Z",
     "updatedAt": "2026-11-26T05:24:00Z"
@@ -2754,7 +2754,7 @@
     "name": "Unpatched remote access service — instance 276",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-16T19:13:00Z",
     "updatedAt": "2026-10-17T03:13:00Z"
@@ -2774,7 +2774,7 @@
     "name": "Weak service account credentials — instance 278",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-10T03:50:00Z",
     "updatedAt": "2026-10-11T02:50:00Z"
@@ -2784,7 +2784,7 @@
     "name": "Unpatched application dependency — instance 279",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-03T03:28:00Z",
     "updatedAt": "2026-09-04T14:28:00Z"
@@ -2804,7 +2804,7 @@
     "name": "Insecure session cookie configuration — instance 281",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-24T14:42:00Z",
     "updatedAt": "2026-10-25T18:42:00Z"
@@ -2814,7 +2814,7 @@
     "name": "Exposed administrative interface — instance 282",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-15T18:42:00Z",
     "updatedAt": "2026-11-15T21:42:00Z"
@@ -2824,7 +2824,7 @@
     "name": "Verbose error messages — instance 283",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-04T12:29:00Z",
     "updatedAt": "2026-08-05T09:29:00Z"
@@ -2874,7 +2874,7 @@
     "name": "Unpatched remote access service — instance 288",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-28T03:30:00Z",
     "updatedAt": "2026-10-28T13:30:00Z"
@@ -2914,7 +2914,7 @@
     "name": "Missing security headers — instance 292",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-16T10:01:00Z",
     "updatedAt": "2026-10-17T21:01:00Z"
@@ -2924,7 +2924,7 @@
     "name": "Excessive directory permissions — instance 293",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-11T05:45:00Z",
     "updatedAt": "2026-11-11T23:45:00Z"
@@ -2934,7 +2934,7 @@
     "name": "Missing security headers — instance 294",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-18T05:15:00Z",
     "updatedAt": "2026-10-18T16:15:00Z"
@@ -2944,7 +2944,7 @@
     "name": "Outdated TLS configuration — instance 295",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-14T12:02:00Z",
     "updatedAt": "2026-11-14T21:02:00Z"
@@ -2954,7 +2954,7 @@
     "name": "Verbose error messages — instance 296",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-30T00:49:00Z",
     "updatedAt": "2026-10-30T00:49:00Z"
@@ -2964,7 +2964,7 @@
     "name": "Verbose error messages — instance 297",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-25T09:59:00Z",
     "updatedAt": "2026-09-26T08:59:00Z"
@@ -2974,7 +2974,7 @@
     "name": "Insecure session cookie configuration — instance 298",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-16T12:00:00Z",
     "updatedAt": "2026-11-18T04:00:00Z"
@@ -2994,7 +2994,7 @@
     "name": "Verbose error messages — instance 300",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-05T12:05:00Z",
     "updatedAt": "2026-08-05T13:05:00Z"
@@ -3014,7 +3014,7 @@
     "name": "Weak service account credentials — instance 302",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-30T23:46:00Z",
     "updatedAt": "2026-11-01T00:46:00Z"
@@ -3024,7 +3024,7 @@
     "name": "Insecure session cookie configuration — instance 303",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-19T01:20:00Z",
     "updatedAt": "2026-11-19T17:20:00Z"
@@ -3034,7 +3034,7 @@
     "name": "Unpatched application dependency — instance 304",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-25T14:54:00Z",
     "updatedAt": "2026-10-25T16:54:00Z"
@@ -3054,7 +3054,7 @@
     "name": "Exposed administrative interface — instance 306",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-08-05T23:16:00Z",
     "updatedAt": "2026-08-06T23:16:00Z"
@@ -3064,7 +3064,7 @@
     "name": "Unpatched remote access service — instance 307",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-08-08T07:19:00Z",
     "updatedAt": "2026-08-08T18:19:00Z"
@@ -3074,7 +3074,7 @@
     "name": "Missing multifactor authentication — instance 308",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-25T07:11:00Z",
     "updatedAt": "2026-08-25T15:11:00Z"
@@ -3104,7 +3104,7 @@
     "name": "Missing multifactor authentication — instance 311",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-04T17:42:00Z",
     "updatedAt": "2026-09-05T10:42:00Z"
@@ -3164,7 +3164,7 @@
     "name": "Missing multifactor authentication — instance 317",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-21T14:35:00Z",
     "updatedAt": "2026-11-23T07:35:00Z"
@@ -3214,7 +3214,7 @@
     "name": "Missing security headers — instance 322",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-10T14:06:00Z",
     "updatedAt": "2026-10-11T20:06:00Z"
@@ -3234,7 +3234,7 @@
     "name": "Verbose error messages — instance 324",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-12T09:49:00Z",
     "updatedAt": "2026-10-13T11:49:00Z"
@@ -3244,7 +3244,7 @@
     "name": "Unrestricted management port — instance 325",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-13T22:06:00Z",
     "updatedAt": "2026-11-14T17:06:00Z"
@@ -3254,7 +3254,7 @@
     "name": "Verbose error messages — instance 326",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-03T17:08:00Z",
     "updatedAt": "2026-11-05T15:08:00Z"
@@ -3304,7 +3304,7 @@
     "name": "Unpatched application dependency — instance 331",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-14T06:47:00Z",
     "updatedAt": "2026-09-16T00:47:00Z"
@@ -3314,7 +3314,7 @@
     "name": "Unpatched remote access service — instance 332",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-08-24T21:04:00Z",
     "updatedAt": "2026-08-25T15:04:00Z"
@@ -3324,7 +3324,7 @@
     "name": "Excessive directory permissions — instance 333",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-23T02:08:00Z",
     "updatedAt": "2026-09-24T13:08:00Z"
@@ -3334,7 +3334,7 @@
     "name": "Missing security headers — instance 334",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-09T09:04:00Z",
     "updatedAt": "2026-08-10T22:04:00Z"
@@ -3374,7 +3374,7 @@
     "name": "Weak service account credentials — instance 338",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-02T11:06:00Z",
     "updatedAt": "2026-08-03T22:06:00Z"
@@ -3384,7 +3384,7 @@
     "name": "Unpatched remote access service — instance 339",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-23T18:10:00Z",
     "updatedAt": "2026-10-25T12:10:00Z"
@@ -3404,7 +3404,7 @@
     "name": "Insecure session cookie configuration — instance 341",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-04T16:18:00Z",
     "updatedAt": "2026-11-05T19:18:00Z"
@@ -3444,7 +3444,7 @@
     "name": "Missing multifactor authentication — instance 345",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-27T23:38:00Z",
     "updatedAt": "2026-10-29T01:38:00Z"
@@ -3464,7 +3464,7 @@
     "name": "Weak service account credentials — instance 347",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-11T08:21:00Z",
     "updatedAt": "2026-11-12T14:21:00Z"
@@ -3474,7 +3474,7 @@
     "name": "Verbose error messages — instance 348",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-29T08:08:00Z",
     "updatedAt": "2026-10-29T21:08:00Z"
@@ -3484,7 +3484,7 @@
     "name": "Verbose error messages — instance 349",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-11T12:36:00Z",
     "updatedAt": "2026-08-13T02:36:00Z"
@@ -3494,7 +3494,7 @@
     "name": "Verbose error messages — instance 350",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-12T07:40:00Z",
     "updatedAt": "2026-11-12T23:40:00Z"
@@ -3504,7 +3504,7 @@
     "name": "Exposed administrative interface — instance 351",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-02T06:55:00Z",
     "updatedAt": "2026-08-03T21:55:00Z"
@@ -3524,7 +3524,7 @@
     "name": "Missing security headers — instance 353",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-05T21:08:00Z",
     "updatedAt": "2026-08-06T14:08:00Z"
@@ -3554,7 +3554,7 @@
     "name": "Exposed administrative interface — instance 356",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-11T06:12:00Z",
     "updatedAt": "2026-10-12T05:12:00Z"
@@ -3564,7 +3564,7 @@
     "name": "Exposed administrative interface — instance 357",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-07T03:02:00Z",
     "updatedAt": "2026-11-07T18:02:00Z"
@@ -3574,7 +3574,7 @@
     "name": "Weak service account credentials — instance 358",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-12T01:17:00Z",
     "updatedAt": "2026-10-12T09:17:00Z"
@@ -3594,7 +3594,7 @@
     "name": "Exposed administrative interface — instance 360",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-27T04:53:00Z",
     "updatedAt": "2026-10-27T10:53:00Z"
@@ -3624,7 +3624,7 @@
     "name": "Missing security headers — instance 363",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-13T16:38:00Z",
     "updatedAt": "2026-09-15T04:38:00Z"
@@ -3634,7 +3634,7 @@
     "name": "Unpatched application dependency — instance 364",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-26T17:37:00Z",
     "updatedAt": "2026-08-28T16:37:00Z"
@@ -3644,7 +3644,7 @@
     "name": "Unrestricted management port — instance 365",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-06T23:16:00Z",
     "updatedAt": "2026-08-08T15:16:00Z"
@@ -3654,7 +3654,7 @@
     "name": "Weak service account credentials — instance 366",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-22T00:07:00Z",
     "updatedAt": "2026-09-23T09:07:00Z"
@@ -3664,7 +3664,7 @@
     "name": "Exposed diagnostic endpoint — instance 367",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-13T12:25:00Z",
     "updatedAt": "2026-09-13T13:25:00Z"
@@ -3674,7 +3674,7 @@
     "name": "Weak service account credentials — instance 368",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-04T13:15:00Z",
     "updatedAt": "2026-11-05T17:15:00Z"
@@ -3684,7 +3684,7 @@
     "name": "Weak service account credentials — instance 369",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-04T17:38:00Z",
     "updatedAt": "2026-11-04T20:38:00Z"
@@ -3694,7 +3694,7 @@
     "name": "Exposed diagnostic endpoint — instance 370",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-12T14:40:00Z",
     "updatedAt": "2026-09-13T23:40:00Z"
@@ -3714,7 +3714,7 @@
     "name": "Excessive directory permissions — instance 372",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-21T19:32:00Z",
     "updatedAt": "2026-10-22T09:32:00Z"
@@ -3724,7 +3724,7 @@
     "name": "Unpatched application dependency — instance 373",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-16T10:24:00Z",
     "updatedAt": "2026-10-17T02:24:00Z"
@@ -3764,7 +3764,7 @@
     "name": "Missing multifactor authentication — instance 377",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-01T19:00:00Z",
     "updatedAt": "2026-10-02T02:00:00Z"
@@ -3774,7 +3774,7 @@
     "name": "Exposed diagnostic endpoint — instance 378",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-06T15:52:00Z",
     "updatedAt": "2026-10-07T18:52:00Z"
@@ -3804,7 +3804,7 @@
     "name": "Exposed administrative interface — instance 381",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-24T15:39:00Z",
     "updatedAt": "2026-10-25T10:39:00Z"
@@ -3824,7 +3824,7 @@
     "name": "Unpatched remote access service — instance 383",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-30T04:36:00Z",
     "updatedAt": "2026-08-31T13:36:00Z"
@@ -3844,7 +3844,7 @@
     "name": "Unpatched remote access service — instance 385",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-02T03:31:00Z",
     "updatedAt": "2026-09-03T06:31:00Z"
@@ -3864,7 +3864,7 @@
     "name": "Weak service account credentials — instance 387",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-04T18:12:00Z",
     "updatedAt": "2026-10-05T09:12:00Z"
@@ -3924,7 +3924,7 @@
     "name": "Missing multifactor authentication — instance 393",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-29T17:51:00Z",
     "updatedAt": "2026-09-30T05:51:00Z"
@@ -3934,7 +3934,7 @@
     "name": "Unrestricted management port — instance 394",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-20T13:51:00Z",
     "updatedAt": "2026-08-21T07:51:00Z"
@@ -3944,7 +3944,7 @@
     "name": "Exposed administrative interface — instance 395",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-15T15:55:00Z",
     "updatedAt": "2026-08-16T04:55:00Z"
@@ -3954,7 +3954,7 @@
     "name": "Outdated TLS configuration — instance 396",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-10T23:04:00Z",
     "updatedAt": "2026-11-11T19:04:00Z"
@@ -3964,7 +3964,7 @@
     "name": "Outdated TLS configuration — instance 397",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-13T23:50:00Z",
     "updatedAt": "2026-10-14T18:50:00Z"
@@ -3974,7 +3974,7 @@
     "name": "Unpatched application dependency — instance 398",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-30T14:29:00Z",
     "updatedAt": "2026-08-31T06:29:00Z"
@@ -3984,7 +3984,7 @@
     "name": "Missing security headers — instance 399",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-14T05:29:00Z",
     "updatedAt": "2026-11-14T06:29:00Z"
@@ -3994,7 +3994,7 @@
     "name": "Exposed administrative interface — instance 400",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-28T03:13:00Z",
     "updatedAt": "2026-10-29T19:13:00Z"
@@ -4014,7 +4014,7 @@
     "name": "Missing security headers — instance 402",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-04T14:15:00Z",
     "updatedAt": "2026-08-06T00:15:00Z"
@@ -4024,7 +4024,7 @@
     "name": "Outdated TLS configuration — instance 403",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-13T00:17:00Z",
     "updatedAt": "2026-10-14T05:17:00Z"
@@ -4034,7 +4034,7 @@
     "name": "Outdated TLS configuration — instance 404",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-19T23:46:00Z",
     "updatedAt": "2026-11-21T00:46:00Z"
@@ -4044,7 +4044,7 @@
     "name": "Unrestricted management port — instance 405",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-10T09:17:00Z",
     "updatedAt": "2026-08-10T10:17:00Z"
@@ -4054,7 +4054,7 @@
     "name": "Weak service account credentials — instance 406",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-05T16:04:00Z",
     "updatedAt": "2026-10-05T21:04:00Z"
@@ -4084,7 +4084,7 @@
     "name": "Verbose error messages — instance 409",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-10T00:07:00Z",
     "updatedAt": "2026-09-11T15:07:00Z"
@@ -4094,7 +4094,7 @@
     "name": "Unpatched remote access service — instance 410",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-15T20:25:00Z",
     "updatedAt": "2026-09-15T22:25:00Z"
@@ -4104,7 +4104,7 @@
     "name": "Unpatched application dependency — instance 411",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-06T19:38:00Z",
     "updatedAt": "2026-08-08T06:38:00Z"
@@ -4114,7 +4114,7 @@
     "name": "Unpatched application dependency — instance 412",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-01T00:39:00Z",
     "updatedAt": "2026-09-01T15:39:00Z"
@@ -4124,7 +4124,7 @@
     "name": "Missing security headers — instance 413",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-14T17:58:00Z",
     "updatedAt": "2026-09-16T13:58:00Z"
@@ -4134,7 +4134,7 @@
     "name": "Missing multifactor authentication — instance 414",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-02T09:18:00Z",
     "updatedAt": "2026-11-03T20:18:00Z"
@@ -4184,7 +4184,7 @@
     "name": "Unrestricted management port — instance 419",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-04T05:29:00Z",
     "updatedAt": "2026-11-06T00:29:00Z"
@@ -4194,7 +4194,7 @@
     "name": "Weak service account credentials — instance 420",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-14T21:24:00Z",
     "updatedAt": "2026-08-15T15:24:00Z"
@@ -4234,7 +4234,7 @@
     "name": "Exposed diagnostic endpoint — instance 424",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-14T08:41:00Z",
     "updatedAt": "2026-11-16T02:41:00Z"
@@ -4294,7 +4294,7 @@
     "name": "Exposed diagnostic endpoint — instance 430",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-08T15:05:00Z",
     "updatedAt": "2026-08-08T16:05:00Z"
@@ -4304,7 +4304,7 @@
     "name": "Excessive directory permissions — instance 431",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-14T08:29:00Z",
     "updatedAt": "2026-10-14T23:29:00Z"
@@ -4314,7 +4314,7 @@
     "name": "Missing multifactor authentication — instance 432",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-05T08:32:00Z",
     "updatedAt": "2026-10-06T14:32:00Z"
@@ -4334,7 +4334,7 @@
     "name": "Unpatched application dependency — instance 434",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-14T04:14:00Z",
     "updatedAt": "2026-11-14T11:14:00Z"
@@ -4344,7 +4344,7 @@
     "name": "Weak service account credentials — instance 435",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-27T05:05:00Z",
     "updatedAt": "2026-09-27T22:05:00Z"
@@ -4354,7 +4354,7 @@
     "name": "Outdated TLS configuration — instance 436",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-01T22:11:00Z",
     "updatedAt": "2026-11-02T11:11:00Z"
@@ -4364,7 +4364,7 @@
     "name": "Unpatched application dependency — instance 437",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-17T19:29:00Z",
     "updatedAt": "2026-10-18T07:29:00Z"
@@ -4374,7 +4374,7 @@
     "name": "Excessive directory permissions — instance 438",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-04T01:24:00Z",
     "updatedAt": "2026-09-04T20:24:00Z"
@@ -4384,7 +4384,7 @@
     "name": "Exposed diagnostic endpoint — instance 439",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-15T06:14:00Z",
     "updatedAt": "2026-08-16T07:14:00Z"
@@ -4404,7 +4404,7 @@
     "name": "Exposed diagnostic endpoint — instance 441",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-09T05:53:00Z",
     "updatedAt": "2026-09-09T20:53:00Z"
@@ -4424,7 +4424,7 @@
     "name": "Exposed diagnostic endpoint — instance 443",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-16T07:01:00Z",
     "updatedAt": "2026-10-16T20:01:00Z"
@@ -4434,7 +4434,7 @@
     "name": "Missing multifactor authentication — instance 444",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-06T13:15:00Z",
     "updatedAt": "2026-10-07T00:15:00Z"
@@ -4444,7 +4444,7 @@
     "name": "Exposed administrative interface — instance 445",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-25T04:33:00Z",
     "updatedAt": "2026-10-26T07:33:00Z"
@@ -4454,7 +4454,7 @@
     "name": "Unpatched remote access service — instance 446",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-11-14T11:05:00Z",
     "updatedAt": "2026-11-15T10:05:00Z"
@@ -4464,7 +4464,7 @@
     "name": "Missing multifactor authentication — instance 447",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-11T11:31:00Z",
     "updatedAt": "2026-10-11T16:31:00Z"
@@ -4484,7 +4484,7 @@
     "name": "Unrestricted management port — instance 449",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-21T16:28:00Z",
     "updatedAt": "2026-08-21T19:28:00Z"
@@ -4514,7 +4514,7 @@
     "name": "Insecure session cookie configuration — instance 452",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-17T16:25:00Z",
     "updatedAt": "2026-11-17T23:25:00Z"
@@ -4524,7 +4524,7 @@
     "name": "Outdated TLS configuration — instance 453",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-11T05:59:00Z",
     "updatedAt": "2026-08-11T07:59:00Z"
@@ -4544,7 +4544,7 @@
     "name": "Excessive directory permissions — instance 455",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-22T18:23:00Z",
     "updatedAt": "2026-09-23T02:23:00Z"
@@ -4584,7 +4584,7 @@
     "name": "Outdated TLS configuration — instance 459",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-10T05:57:00Z",
     "updatedAt": "2026-11-10T05:57:00Z"
@@ -4594,7 +4594,7 @@
     "name": "Verbose error messages — instance 460",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-22T05:23:00Z",
     "updatedAt": "2026-11-23T14:23:00Z"
@@ -4614,7 +4614,7 @@
     "name": "Exposed diagnostic endpoint — instance 462",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-16T05:09:00Z",
     "updatedAt": "2026-10-16T21:09:00Z"
@@ -4634,7 +4634,7 @@
     "name": "Unrestricted management port — instance 464",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-02T09:48:00Z",
     "updatedAt": "2026-09-04T06:48:00Z"
@@ -4654,7 +4654,7 @@
     "name": "Verbose error messages — instance 466",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-06T09:02:00Z",
     "updatedAt": "2026-11-07T01:02:00Z"
@@ -4674,7 +4674,7 @@
     "name": "Unpatched application dependency — instance 468",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-23T04:06:00Z",
     "updatedAt": "2026-09-24T08:06:00Z"
@@ -4684,7 +4684,7 @@
     "name": "Weak service account credentials — instance 469",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-12T05:43:00Z",
     "updatedAt": "2026-10-12T13:43:00Z"
@@ -4704,7 +4704,7 @@
     "name": "Outdated TLS configuration — instance 471",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-27T23:51:00Z",
     "updatedAt": "2026-09-29T06:51:00Z"
@@ -4714,7 +4714,7 @@
     "name": "Verbose error messages — instance 472",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-06T20:25:00Z",
     "updatedAt": "2026-11-08T03:25:00Z"
@@ -4734,7 +4734,7 @@
     "name": "Outdated TLS configuration — instance 474",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-18T00:22:00Z",
     "updatedAt": "2026-08-19T17:22:00Z"
@@ -4764,7 +4764,7 @@
     "name": "Exposed diagnostic endpoint — instance 477",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-09T10:08:00Z",
     "updatedAt": "2026-10-10T09:08:00Z"
@@ -4794,7 +4794,7 @@
     "name": "Weak service account credentials — instance 480",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-09T22:21:00Z",
     "updatedAt": "2026-10-10T20:21:00Z"
@@ -4824,7 +4824,7 @@
     "name": "Unrestricted management port — instance 483",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-28T08:47:00Z",
     "updatedAt": "2026-09-28T11:47:00Z"
@@ -4874,7 +4874,7 @@
     "name": "Insecure session cookie configuration — instance 488",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-15T09:22:00Z",
     "updatedAt": "2026-10-16T18:22:00Z"
@@ -4894,7 +4894,7 @@
     "name": "Outdated TLS configuration — instance 490",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-31T20:50:00Z",
     "updatedAt": "2026-09-01T10:50:00Z"
@@ -4934,7 +4934,7 @@
     "name": "Outdated TLS configuration — instance 494",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-25T02:14:00Z",
     "updatedAt": "2026-11-25T08:14:00Z"
@@ -4944,7 +4944,7 @@
     "name": "Weak service account credentials — instance 495",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-11T16:48:00Z",
     "updatedAt": "2026-11-12T11:48:00Z"
@@ -4974,7 +4974,7 @@
     "name": "Excessive directory permissions — instance 498",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-11T14:12:00Z",
     "updatedAt": "2026-10-12T21:12:00Z"
@@ -5024,7 +5024,7 @@
     "name": "Verbose error messages — instance 503",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-21T16:26:00Z",
     "updatedAt": "2026-11-23T04:26:00Z"
@@ -5054,7 +5054,7 @@
     "name": "Outdated TLS configuration — instance 506",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-08T13:38:00Z",
     "updatedAt": "2026-10-10T04:38:00Z"
@@ -5074,7 +5074,7 @@
     "name": "Excessive directory permissions — instance 508",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-17T04:50:00Z",
     "updatedAt": "2026-08-18T16:50:00Z"
@@ -5094,7 +5094,7 @@
     "name": "Outdated TLS configuration — instance 510",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-05T03:53:00Z",
     "updatedAt": "2026-08-06T22:53:00Z"
@@ -5104,7 +5104,7 @@
     "name": "Excessive directory permissions — instance 511",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-01T21:07:00Z",
     "updatedAt": "2026-08-02T17:07:00Z"
@@ -5124,7 +5124,7 @@
     "name": "Weak service account credentials — instance 513",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-26T21:24:00Z",
     "updatedAt": "2026-08-27T04:24:00Z"
@@ -5134,7 +5134,7 @@
     "name": "Unrestricted management port — instance 514",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-26T14:05:00Z",
     "updatedAt": "2026-08-27T09:05:00Z"
@@ -5144,7 +5144,7 @@
     "name": "Unpatched application dependency — instance 515",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-10T04:18:00Z",
     "updatedAt": "2026-09-11T14:18:00Z"
@@ -5164,7 +5164,7 @@
     "name": "Exposed diagnostic endpoint — instance 517",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-08T00:56:00Z",
     "updatedAt": "2026-10-08T08:56:00Z"
@@ -5184,7 +5184,7 @@
     "name": "Missing multifactor authentication — instance 519",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-25T15:32:00Z",
     "updatedAt": "2026-10-26T15:32:00Z"
@@ -5214,7 +5214,7 @@
     "name": "Unpatched remote access service — instance 522",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-09-04T07:38:00Z",
     "updatedAt": "2026-09-05T18:38:00Z"
@@ -5234,7 +5234,7 @@
     "name": "Missing multifactor authentication — instance 524",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-28T22:51:00Z",
     "updatedAt": "2026-09-30T12:51:00Z"
@@ -5244,7 +5244,7 @@
     "name": "Missing security headers — instance 525",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-01T00:03:00Z",
     "updatedAt": "2026-08-02T06:03:00Z"
@@ -5274,7 +5274,7 @@
     "name": "Insecure session cookie configuration — instance 528",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-03T14:37:00Z",
     "updatedAt": "2026-08-04T02:37:00Z"
@@ -5284,7 +5284,7 @@
     "name": "Exposed administrative interface — instance 529",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-09-01T02:33:00Z",
     "updatedAt": "2026-09-02T14:33:00Z"
@@ -5294,7 +5294,7 @@
     "name": "Excessive directory permissions — instance 530",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-25T17:20:00Z",
     "updatedAt": "2026-11-26T16:20:00Z"
@@ -5314,7 +5314,7 @@
     "name": "Missing multifactor authentication — instance 532",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-06T11:24:00Z",
     "updatedAt": "2026-09-08T10:24:00Z"
@@ -5354,7 +5354,7 @@
     "name": "Outdated TLS configuration — instance 536",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-31T05:30:00Z",
     "updatedAt": "2026-10-31T17:30:00Z"
@@ -5374,7 +5374,7 @@
     "name": "Weak service account credentials — instance 538",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-25T12:20:00Z",
     "updatedAt": "2026-09-26T08:20:00Z"
@@ -5394,7 +5394,7 @@
     "name": "Unpatched application dependency — instance 540",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-17T22:38:00Z",
     "updatedAt": "2026-08-18T07:38:00Z"
@@ -5404,7 +5404,7 @@
     "name": "Unpatched application dependency — instance 541",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-29T11:11:00Z",
     "updatedAt": "2026-10-30T10:11:00Z"
@@ -5454,7 +5454,7 @@
     "name": "Unpatched remote access service — instance 546",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-15T04:16:00Z",
     "updatedAt": "2026-08-15T09:16:00Z"
@@ -5474,7 +5474,7 @@
     "name": "Exposed administrative interface — instance 548",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-06T10:25:00Z",
     "updatedAt": "2026-11-07T19:25:00Z"
@@ -5514,7 +5514,7 @@
     "name": "Excessive directory permissions — instance 552",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-14T07:19:00Z",
     "updatedAt": "2026-10-14T21:19:00Z"
@@ -5524,7 +5524,7 @@
     "name": "Weak service account credentials — instance 553",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-05T20:58:00Z",
     "updatedAt": "2026-10-05T21:58:00Z"
@@ -5534,7 +5534,7 @@
     "name": "Excessive directory permissions — instance 554",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-01T20:06:00Z",
     "updatedAt": "2026-11-03T10:06:00Z"
@@ -5544,7 +5544,7 @@
     "name": "Insecure session cookie configuration — instance 555",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-12T01:36:00Z",
     "updatedAt": "2026-09-13T12:36:00Z"
@@ -5574,7 +5574,7 @@
     "name": "Verbose error messages — instance 558",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-09T01:20:00Z",
     "updatedAt": "2026-11-10T23:20:00Z"
@@ -5584,7 +5584,7 @@
     "name": "Verbose error messages — instance 559",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-23T01:54:00Z",
     "updatedAt": "2026-09-24T07:54:00Z"
@@ -5594,7 +5594,7 @@
     "name": "Missing security headers — instance 560",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-03T05:25:00Z",
     "updatedAt": "2026-10-04T00:25:00Z"
@@ -5604,7 +5604,7 @@
     "name": "Exposed administrative interface — instance 561",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-19T03:56:00Z",
     "updatedAt": "2026-11-19T14:56:00Z"
@@ -5624,7 +5624,7 @@
     "name": "Missing multifactor authentication — instance 563",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-23T18:55:00Z",
     "updatedAt": "2026-10-24T19:55:00Z"
@@ -5634,7 +5634,7 @@
     "name": "Verbose error messages — instance 564",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-13T11:10:00Z",
     "updatedAt": "2026-08-13T17:10:00Z"
@@ -5644,7 +5644,7 @@
     "name": "Unpatched application dependency — instance 565",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-16T22:14:00Z",
     "updatedAt": "2026-09-18T02:14:00Z"
@@ -5674,7 +5674,7 @@
     "name": "Excessive directory permissions — instance 568",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-10T18:13:00Z",
     "updatedAt": "2026-10-11T22:13:00Z"
@@ -5704,7 +5704,7 @@
     "name": "Verbose error messages — instance 571",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-12T19:23:00Z",
     "updatedAt": "2026-08-13T13:23:00Z"
@@ -5724,7 +5724,7 @@
     "name": "Outdated TLS configuration — instance 573",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-16T02:00:00Z",
     "updatedAt": "2026-09-17T08:00:00Z"
@@ -5744,7 +5744,7 @@
     "name": "Unpatched remote access service — instance 575",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-11-13T15:29:00Z",
     "updatedAt": "2026-11-14T06:29:00Z"
@@ -5764,7 +5764,7 @@
     "name": "Unpatched remote access service — instance 577",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-07T12:10:00Z",
     "updatedAt": "2026-10-09T00:10:00Z"
@@ -5784,7 +5784,7 @@
     "name": "Verbose error messages — instance 579",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-09T04:28:00Z",
     "updatedAt": "2026-10-10T11:28:00Z"
@@ -5824,7 +5824,7 @@
     "name": "Verbose error messages — instance 583",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-22T13:50:00Z",
     "updatedAt": "2026-09-24T07:50:00Z"
@@ -5894,7 +5894,7 @@
     "name": "Missing security headers — instance 590",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-10T18:08:00Z",
     "updatedAt": "2026-09-10T18:08:00Z"
@@ -5914,7 +5914,7 @@
     "name": "Missing security headers — instance 592",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-19T13:38:00Z",
     "updatedAt": "2026-11-20T07:38:00Z"
@@ -5934,7 +5934,7 @@
     "name": "Missing multifactor authentication — instance 594",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-11T19:16:00Z",
     "updatedAt": "2026-09-12T11:16:00Z"
@@ -6004,7 +6004,7 @@
     "name": "Missing multifactor authentication — instance 601",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-20T12:03:00Z",
     "updatedAt": "2026-11-21T13:03:00Z"
@@ -6014,7 +6014,7 @@
     "name": "Unpatched application dependency — instance 602",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-09T19:06:00Z",
     "updatedAt": "2026-10-10T14:06:00Z"
@@ -6034,7 +6034,7 @@
     "name": "Exposed diagnostic endpoint — instance 604",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-11T06:41:00Z",
     "updatedAt": "2026-09-12T12:41:00Z"
@@ -6084,7 +6084,7 @@
     "name": "Exposed diagnostic endpoint — instance 609",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-16T01:02:00Z",
     "updatedAt": "2026-08-17T04:02:00Z"
@@ -6104,7 +6104,7 @@
     "name": "Unrestricted management port — instance 611",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-03T07:58:00Z",
     "updatedAt": "2026-08-04T06:58:00Z"
@@ -6114,7 +6114,7 @@
     "name": "Unrestricted management port — instance 612",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-25T10:38:00Z",
     "updatedAt": "2026-08-25T22:38:00Z"
@@ -6134,7 +6134,7 @@
     "name": "Missing security headers — instance 614",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-18T06:38:00Z",
     "updatedAt": "2026-10-19T14:38:00Z"
@@ -6144,7 +6144,7 @@
     "name": "Outdated TLS configuration — instance 615",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-04T08:06:00Z",
     "updatedAt": "2026-08-04T13:06:00Z"
@@ -6154,7 +6154,7 @@
     "name": "Unpatched remote access service — instance 616",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-31T12:12:00Z",
     "updatedAt": "2026-11-01T20:12:00Z"
@@ -6164,7 +6164,7 @@
     "name": "Unpatched application dependency — instance 617",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-07T11:04:00Z",
     "updatedAt": "2026-09-07T14:04:00Z"
@@ -6174,7 +6174,7 @@
     "name": "Weak service account credentials — instance 618",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-08T23:18:00Z",
     "updatedAt": "2026-08-10T07:18:00Z"
@@ -6184,7 +6184,7 @@
     "name": "Missing multifactor authentication — instance 619",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-24T00:57:00Z",
     "updatedAt": "2026-09-24T07:57:00Z"
@@ -6194,7 +6194,7 @@
     "name": "Outdated TLS configuration — instance 620",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-14T13:17:00Z",
     "updatedAt": "2026-11-15T15:17:00Z"
@@ -6224,7 +6224,7 @@
     "name": "Exposed diagnostic endpoint — instance 623",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-03T02:34:00Z",
     "updatedAt": "2026-08-04T10:34:00Z"
@@ -6234,7 +6234,7 @@
     "name": "Weak service account credentials — instance 624",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-17T18:53:00Z",
     "updatedAt": "2026-10-18T12:53:00Z"
@@ -6264,7 +6264,7 @@
     "name": "Unpatched remote access service — instance 627",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-07T09:52:00Z",
     "updatedAt": "2026-10-07T21:52:00Z"
@@ -6274,7 +6274,7 @@
     "name": "Exposed administrative interface — instance 628",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-08-15T01:31:00Z",
     "updatedAt": "2026-08-15T14:31:00Z"
@@ -6294,7 +6294,7 @@
     "name": "Verbose error messages — instance 630",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-23T23:24:00Z",
     "updatedAt": "2026-10-23T23:24:00Z"
@@ -6314,7 +6314,7 @@
     "name": "Unpatched application dependency — instance 632",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-02T09:19:00Z",
     "updatedAt": "2026-08-03T09:19:00Z"
@@ -6354,7 +6354,7 @@
     "name": "Exposed administrative interface — instance 636",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-01T01:29:00Z",
     "updatedAt": "2026-09-02T15:29:00Z"
@@ -6394,7 +6394,7 @@
     "name": "Unpatched application dependency — instance 640",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-23T20:11:00Z",
     "updatedAt": "2026-10-24T20:11:00Z"
@@ -6474,7 +6474,7 @@
     "name": "Exposed diagnostic endpoint — instance 648",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-17T20:58:00Z",
     "updatedAt": "2026-10-19T14:58:00Z"
@@ -6484,7 +6484,7 @@
     "name": "Verbose error messages — instance 649",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-11T05:29:00Z",
     "updatedAt": "2026-08-12T05:29:00Z"
@@ -6494,7 +6494,7 @@
     "name": "Excessive directory permissions — instance 650",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-15T15:38:00Z",
     "updatedAt": "2026-11-16T02:38:00Z"
@@ -6504,7 +6504,7 @@
     "name": "Unrestricted management port — instance 651",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-27T21:10:00Z",
     "updatedAt": "2026-09-28T23:10:00Z"
@@ -6514,7 +6514,7 @@
     "name": "Weak service account credentials — instance 652",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-01T09:58:00Z",
     "updatedAt": "2026-08-01T18:58:00Z"
@@ -6524,7 +6524,7 @@
     "name": "Missing multifactor authentication — instance 653",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-23T06:35:00Z",
     "updatedAt": "2026-09-25T01:35:00Z"
@@ -6544,7 +6544,7 @@
     "name": "Verbose error messages — instance 655",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-06T21:51:00Z",
     "updatedAt": "2026-09-08T00:51:00Z"
@@ -6554,7 +6554,7 @@
     "name": "Excessive directory permissions — instance 656",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-26T04:00:00Z",
     "updatedAt": "2026-08-26T14:00:00Z"
@@ -6564,7 +6564,7 @@
     "name": "Missing security headers — instance 657",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-10T01:06:00Z",
     "updatedAt": "2026-10-10T05:06:00Z"
@@ -6584,7 +6584,7 @@
     "name": "Unpatched application dependency — instance 659",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-17T07:25:00Z",
     "updatedAt": "2026-11-18T13:25:00Z"
@@ -6594,7 +6594,7 @@
     "name": "Missing multifactor authentication — instance 660",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-16T05:12:00Z",
     "updatedAt": "2026-11-17T14:12:00Z"
@@ -6604,7 +6604,7 @@
     "name": "Outdated TLS configuration — instance 661",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-07T01:45:00Z",
     "updatedAt": "2026-10-09T00:45:00Z"
@@ -6614,7 +6614,7 @@
     "name": "Exposed administrative interface — instance 662",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-08-22T17:48:00Z",
     "updatedAt": "2026-08-23T15:48:00Z"
@@ -6624,7 +6624,7 @@
     "name": "Exposed diagnostic endpoint — instance 663",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-07T23:21:00Z",
     "updatedAt": "2026-08-08T20:21:00Z"
@@ -6644,7 +6644,7 @@
     "name": "Exposed administrative interface — instance 665",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-26T18:05:00Z",
     "updatedAt": "2026-09-27T10:05:00Z"
@@ -6654,7 +6654,7 @@
     "name": "Unpatched application dependency — instance 666",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-25T14:42:00Z",
     "updatedAt": "2026-11-27T01:42:00Z"
@@ -6674,7 +6674,7 @@
     "name": "Exposed administrative interface — instance 668",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-18T14:36:00Z",
     "updatedAt": "2026-09-20T08:36:00Z"
@@ -6684,7 +6684,7 @@
     "name": "Weak service account credentials — instance 669",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-11T13:42:00Z",
     "updatedAt": "2026-09-11T16:42:00Z"
@@ -6694,7 +6694,7 @@
     "name": "Unpatched remote access service — instance 670",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-18T06:19:00Z",
     "updatedAt": "2026-09-19T19:19:00Z"
@@ -6704,7 +6704,7 @@
     "name": "Exposed administrative interface — instance 671",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-12T21:32:00Z",
     "updatedAt": "2026-08-13T16:32:00Z"
@@ -6744,7 +6744,7 @@
     "name": "Missing multifactor authentication — instance 675",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-04T07:33:00Z",
     "updatedAt": "2026-08-04T11:33:00Z"
@@ -6764,7 +6764,7 @@
     "name": "Unrestricted management port — instance 677",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-02T05:53:00Z",
     "updatedAt": "2026-11-04T03:53:00Z"
@@ -6774,7 +6774,7 @@
     "name": "Missing multifactor authentication — instance 678",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-18T13:07:00Z",
     "updatedAt": "2026-11-19T09:07:00Z"
@@ -6814,7 +6814,7 @@
     "name": "Exposed administrative interface — instance 682",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-12T13:48:00Z",
     "updatedAt": "2026-09-14T10:48:00Z"
@@ -6844,7 +6844,7 @@
     "name": "Unrestricted management port — instance 685",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-02T10:31:00Z",
     "updatedAt": "2026-10-04T03:31:00Z"
@@ -6864,7 +6864,7 @@
     "name": "Exposed administrative interface — instance 687",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-09-23T20:51:00Z",
     "updatedAt": "2026-09-24T16:51:00Z"
@@ -6894,7 +6894,7 @@
     "name": "Excessive directory permissions — instance 690",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-25T17:55:00Z",
     "updatedAt": "2026-11-25T21:55:00Z"
@@ -6914,7 +6914,7 @@
     "name": "Outdated TLS configuration — instance 692",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-07T20:13:00Z",
     "updatedAt": "2026-09-09T13:13:00Z"
@@ -6944,7 +6944,7 @@
     "name": "Weak service account credentials — instance 695",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-12T13:12:00Z",
     "updatedAt": "2026-11-13T07:12:00Z"
@@ -6954,7 +6954,7 @@
     "name": "Missing security headers — instance 696",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-22T00:15:00Z",
     "updatedAt": "2026-11-22T14:15:00Z"
@@ -6964,7 +6964,7 @@
     "name": "Exposed administrative interface — instance 697",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-08T04:27:00Z",
     "updatedAt": "2026-10-09T15:27:00Z"
@@ -6984,7 +6984,7 @@
     "name": "Unpatched remote access service — instance 699",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-23T21:21:00Z",
     "updatedAt": "2026-09-25T00:21:00Z"
@@ -7014,7 +7014,7 @@
     "name": "Verbose error messages — instance 702",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-24T00:23:00Z",
     "updatedAt": "2026-11-24T12:23:00Z"
@@ -7024,7 +7024,7 @@
     "name": "Missing security headers — instance 703",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-18T16:09:00Z",
     "updatedAt": "2026-08-20T12:09:00Z"
@@ -7044,7 +7044,7 @@
     "name": "Outdated TLS configuration — instance 705",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-20T04:03:00Z",
     "updatedAt": "2026-08-21T10:03:00Z"
@@ -7074,7 +7074,7 @@
     "name": "Missing multifactor authentication — instance 708",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-05T02:42:00Z",
     "updatedAt": "2026-11-05T15:42:00Z"
@@ -7124,7 +7124,7 @@
     "name": "Weak service account credentials — instance 713",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-27T13:45:00Z",
     "updatedAt": "2026-09-28T07:45:00Z"
@@ -7144,7 +7144,7 @@
     "name": "Weak service account credentials — instance 715",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-12T01:44:00Z",
     "updatedAt": "2026-11-12T13:44:00Z"
@@ -7154,7 +7154,7 @@
     "name": "Unrestricted management port — instance 716",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-26T01:35:00Z",
     "updatedAt": "2026-08-27T23:35:00Z"
@@ -7164,7 +7164,7 @@
     "name": "Outdated TLS configuration — instance 717",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-18T07:54:00Z",
     "updatedAt": "2026-09-19T23:54:00Z"
@@ -7174,7 +7174,7 @@
     "name": "Excessive directory permissions — instance 718",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-13T14:24:00Z",
     "updatedAt": "2026-08-15T12:24:00Z"
@@ -7194,7 +7194,7 @@
     "name": "Excessive directory permissions — instance 720",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-04T17:10:00Z",
     "updatedAt": "2026-09-06T10:10:00Z"
@@ -7204,7 +7204,7 @@
     "name": "Insecure session cookie configuration — instance 721",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-27T17:55:00Z",
     "updatedAt": "2026-08-29T16:55:00Z"
@@ -7224,7 +7224,7 @@
     "name": "Exposed diagnostic endpoint — instance 723",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-30T15:51:00Z",
     "updatedAt": "2026-10-30T22:51:00Z"
@@ -7244,7 +7244,7 @@
     "name": "Excessive directory permissions — instance 725",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-22T04:17:00Z",
     "updatedAt": "2026-08-22T23:17:00Z"
@@ -7264,7 +7264,7 @@
     "name": "Weak service account credentials — instance 727",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-09T00:30:00Z",
     "updatedAt": "2026-11-09T03:30:00Z"
@@ -7314,7 +7314,7 @@
     "name": "Exposed administrative interface — instance 732",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-11T02:46:00Z",
     "updatedAt": "2026-09-12T18:46:00Z"
@@ -7324,7 +7324,7 @@
     "name": "Insecure session cookie configuration — instance 733",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-10T14:38:00Z",
     "updatedAt": "2026-08-12T11:38:00Z"
@@ -7344,7 +7344,7 @@
     "name": "Outdated TLS configuration — instance 735",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-18T12:22:00Z",
     "updatedAt": "2026-08-19T01:22:00Z"
@@ -7354,7 +7354,7 @@
     "name": "Unrestricted management port — instance 736",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-04T12:23:00Z",
     "updatedAt": "2026-11-06T02:23:00Z"
@@ -7374,7 +7374,7 @@
     "name": "Unrestricted management port — instance 738",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-12T09:13:00Z",
     "updatedAt": "2026-10-14T01:13:00Z"
@@ -7404,7 +7404,7 @@
     "name": "Missing multifactor authentication — instance 741",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-06T15:07:00Z",
     "updatedAt": "2026-08-07T08:07:00Z"
@@ -7424,7 +7424,7 @@
     "name": "Unrestricted management port — instance 743",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-28T07:20:00Z",
     "updatedAt": "2026-08-29T11:20:00Z"
@@ -7444,7 +7444,7 @@
     "name": "Weak service account credentials — instance 745",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-17T04:09:00Z",
     "updatedAt": "2026-11-18T02:09:00Z"
@@ -7484,7 +7484,7 @@
     "name": "Unpatched application dependency — instance 749",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-08T11:16:00Z",
     "updatedAt": "2026-11-10T03:16:00Z"
@@ -7514,7 +7514,7 @@
     "name": "Insecure session cookie configuration — instance 752",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-28T11:54:00Z",
     "updatedAt": "2026-08-29T12:54:00Z"
@@ -7524,7 +7524,7 @@
     "name": "Unrestricted management port — instance 753",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-24T14:35:00Z",
     "updatedAt": "2026-09-26T08:35:00Z"
@@ -7544,7 +7544,7 @@
     "name": "Excessive directory permissions — instance 755",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-21T13:05:00Z",
     "updatedAt": "2026-08-22T14:05:00Z"
@@ -7574,7 +7574,7 @@
     "name": "Missing multifactor authentication — instance 758",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-03T13:44:00Z",
     "updatedAt": "2026-10-03T14:44:00Z"
@@ -7584,7 +7584,7 @@
     "name": "Missing multifactor authentication — instance 759",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-12T07:34:00Z",
     "updatedAt": "2026-09-13T18:34:00Z"
@@ -7594,7 +7594,7 @@
     "name": "Excessive directory permissions — instance 760",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-24T12:57:00Z",
     "updatedAt": "2026-08-24T13:57:00Z"
@@ -7604,7 +7604,7 @@
     "name": "Unpatched remote access service — instance 761",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-25T23:58:00Z",
     "updatedAt": "2026-10-26T21:58:00Z"
@@ -7614,7 +7614,7 @@
     "name": "Weak service account credentials — instance 762",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-30T06:17:00Z",
     "updatedAt": "2026-09-30T16:17:00Z"
@@ -7624,7 +7624,7 @@
     "name": "Unrestricted management port — instance 763",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-02T16:08:00Z",
     "updatedAt": "2026-09-03T21:08:00Z"
@@ -7644,7 +7644,7 @@
     "name": "Outdated TLS configuration — instance 765",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-09T14:41:00Z",
     "updatedAt": "2026-08-10T03:41:00Z"
@@ -7674,7 +7674,7 @@
     "name": "Unpatched remote access service — instance 768",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-28T08:42:00Z",
     "updatedAt": "2026-10-29T09:42:00Z"
@@ -7684,7 +7684,7 @@
     "name": "Missing multifactor authentication — instance 769",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-24T22:11:00Z",
     "updatedAt": "2026-11-25T03:11:00Z"
@@ -7694,7 +7694,7 @@
     "name": "Exposed diagnostic endpoint — instance 770",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-22T21:57:00Z",
     "updatedAt": "2026-10-23T00:57:00Z"
@@ -7714,7 +7714,7 @@
     "name": "Unpatched remote access service — instance 772",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-16T03:38:00Z",
     "updatedAt": "2026-10-17T18:38:00Z"
@@ -7734,7 +7734,7 @@
     "name": "Insecure session cookie configuration — instance 774",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-10T07:29:00Z",
     "updatedAt": "2026-10-10T16:29:00Z"
@@ -7744,7 +7744,7 @@
     "name": "Unrestricted management port — instance 775",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-23T22:57:00Z",
     "updatedAt": "2026-10-25T04:57:00Z"
@@ -7754,7 +7754,7 @@
     "name": "Excessive directory permissions — instance 776",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-19T02:14:00Z",
     "updatedAt": "2026-11-20T10:14:00Z"
@@ -7764,7 +7764,7 @@
     "name": "Excessive directory permissions — instance 777",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-04T06:07:00Z",
     "updatedAt": "2026-08-05T17:07:00Z"
@@ -7774,7 +7774,7 @@
     "name": "Insecure session cookie configuration — instance 778",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-11T22:37:00Z",
     "updatedAt": "2026-09-13T21:37:00Z"
@@ -7784,7 +7784,7 @@
     "name": "Outdated TLS configuration — instance 779",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-09T13:25:00Z",
     "updatedAt": "2026-11-10T07:25:00Z"
@@ -7794,7 +7794,7 @@
     "name": "Unpatched remote access service — instance 780",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-05T00:16:00Z",
     "updatedAt": "2026-09-06T00:16:00Z"
@@ -7804,7 +7804,7 @@
     "name": "Insecure session cookie configuration — instance 781",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-25T08:54:00Z",
     "updatedAt": "2026-10-27T00:54:00Z"
@@ -7854,7 +7854,7 @@
     "name": "Excessive directory permissions — instance 786",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-28T12:56:00Z",
     "updatedAt": "2026-09-29T10:56:00Z"
@@ -7864,7 +7864,7 @@
     "name": "Exposed diagnostic endpoint — instance 787",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-20T09:24:00Z",
     "updatedAt": "2026-11-20T15:24:00Z"
@@ -7884,7 +7884,7 @@
     "name": "Exposed diagnostic endpoint — instance 789",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-02T15:12:00Z",
     "updatedAt": "2026-11-02T16:12:00Z"
@@ -7924,7 +7924,7 @@
     "name": "Insecure session cookie configuration — instance 793",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-28T03:13:00Z",
     "updatedAt": "2026-08-29T04:13:00Z"
@@ -7934,7 +7934,7 @@
     "name": "Exposed diagnostic endpoint — instance 794",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-03T00:49:00Z",
     "updatedAt": "2026-11-04T04:49:00Z"
@@ -7944,7 +7944,7 @@
     "name": "Unrestricted management port — instance 795",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-13T03:38:00Z",
     "updatedAt": "2026-09-13T15:38:00Z"
@@ -7964,7 +7964,7 @@
     "name": "Weak service account credentials — instance 797",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-15T02:26:00Z",
     "updatedAt": "2026-09-16T15:26:00Z"
@@ -7984,7 +7984,7 @@
     "name": "Exposed diagnostic endpoint — instance 799",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-24T13:32:00Z",
     "updatedAt": "2026-10-25T16:32:00Z"
@@ -7994,7 +7994,7 @@
     "name": "Missing multifactor authentication — instance 800",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-22T06:07:00Z",
     "updatedAt": "2026-09-23T04:07:00Z"
@@ -8004,7 +8004,7 @@
     "name": "Insecure session cookie configuration — instance 801",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-30T04:30:00Z",
     "updatedAt": "2026-10-31T00:30:00Z"
@@ -8044,7 +8044,7 @@
     "name": "Unpatched application dependency — instance 805",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-26T20:24:00Z",
     "updatedAt": "2026-08-27T19:24:00Z"
@@ -8054,7 +8054,7 @@
     "name": "Verbose error messages — instance 806",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-20T05:58:00Z",
     "updatedAt": "2026-11-21T21:58:00Z"
@@ -8104,7 +8104,7 @@
     "name": "Outdated TLS configuration — instance 811",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-25T02:44:00Z",
     "updatedAt": "2026-09-26T18:44:00Z"
@@ -8114,7 +8114,7 @@
     "name": "Excessive directory permissions — instance 812",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-24T06:31:00Z",
     "updatedAt": "2026-10-25T17:31:00Z"
@@ -8124,7 +8124,7 @@
     "name": "Unpatched remote access service — instance 813",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-12T05:50:00Z",
     "updatedAt": "2026-08-13T14:50:00Z"
@@ -8134,7 +8134,7 @@
     "name": "Insecure session cookie configuration — instance 814",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-30T04:12:00Z",
     "updatedAt": "2026-10-31T21:12:00Z"
@@ -8234,7 +8234,7 @@
     "name": "Exposed administrative interface — instance 824",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-19T00:39:00Z",
     "updatedAt": "2026-10-20T22:39:00Z"
@@ -8244,7 +8244,7 @@
     "name": "Unpatched remote access service — instance 825",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-08-01T01:53:00Z",
     "updatedAt": "2026-08-01T13:53:00Z"
@@ -8254,7 +8254,7 @@
     "name": "Outdated TLS configuration — instance 826",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-03T08:35:00Z",
     "updatedAt": "2026-09-03T08:35:00Z"
@@ -8324,7 +8324,7 @@
     "name": "Unpatched application dependency — instance 833",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-06T11:11:00Z",
     "updatedAt": "2026-09-07T08:11:00Z"
@@ -8334,7 +8334,7 @@
     "name": "Unpatched application dependency — instance 834",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-26T15:12:00Z",
     "updatedAt": "2026-08-27T03:12:00Z"
@@ -8354,7 +8354,7 @@
     "name": "Unpatched remote access service — instance 836",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-22T02:32:00Z",
     "updatedAt": "2026-10-22T04:32:00Z"
@@ -8364,7 +8364,7 @@
     "name": "Weak service account credentials — instance 837",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-03T05:20:00Z",
     "updatedAt": "2026-08-04T22:20:00Z"
@@ -8394,7 +8394,7 @@
     "name": "Missing security headers — instance 840",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-23T09:19:00Z",
     "updatedAt": "2026-09-24T19:19:00Z"
@@ -8414,7 +8414,7 @@
     "name": "Unpatched remote access service — instance 842",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-11T22:19:00Z",
     "updatedAt": "2026-08-11T23:19:00Z"
@@ -8424,7 +8424,7 @@
     "name": "Insecure session cookie configuration — instance 843",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-02T02:35:00Z",
     "updatedAt": "2026-09-03T00:35:00Z"
@@ -8434,7 +8434,7 @@
     "name": "Weak service account credentials — instance 844",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-27T21:09:00Z",
     "updatedAt": "2026-09-29T06:09:00Z"
@@ -8444,7 +8444,7 @@
     "name": "Unpatched application dependency — instance 845",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-15T05:53:00Z",
     "updatedAt": "2026-08-15T20:53:00Z"
@@ -8484,7 +8484,7 @@
     "name": "Missing security headers — instance 849",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-03T05:03:00Z",
     "updatedAt": "2026-11-04T22:03:00Z"
@@ -8494,7 +8494,7 @@
     "name": "Verbose error messages — instance 850",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-06T16:42:00Z",
     "updatedAt": "2026-11-08T04:42:00Z"
@@ -8514,7 +8514,7 @@
     "name": "Verbose error messages — instance 852",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-19T07:06:00Z",
     "updatedAt": "2026-09-21T06:06:00Z"
@@ -8524,7 +8524,7 @@
     "name": "Weak service account credentials — instance 853",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-17T09:48:00Z",
     "updatedAt": "2026-11-18T19:48:00Z"
@@ -8544,7 +8544,7 @@
     "name": "Unpatched application dependency — instance 855",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-28T17:30:00Z",
     "updatedAt": "2026-10-29T18:30:00Z"
@@ -8554,7 +8554,7 @@
     "name": "Missing multifactor authentication — instance 856",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-16T13:23:00Z",
     "updatedAt": "2026-09-17T13:23:00Z"
@@ -8574,7 +8574,7 @@
     "name": "Unpatched remote access service — instance 858",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-09-18T07:39:00Z",
     "updatedAt": "2026-09-18T17:39:00Z"
@@ -8584,7 +8584,7 @@
     "name": "Unrestricted management port — instance 859",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-04T23:25:00Z",
     "updatedAt": "2026-11-05T16:25:00Z"
@@ -8604,7 +8604,7 @@
     "name": "Unrestricted management port — instance 861",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-04T04:28:00Z",
     "updatedAt": "2026-10-05T22:28:00Z"
@@ -8614,7 +8614,7 @@
     "name": "Exposed diagnostic endpoint — instance 862",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-30T18:33:00Z",
     "updatedAt": "2026-10-01T12:33:00Z"
@@ -8624,7 +8624,7 @@
     "name": "Exposed diagnostic endpoint — instance 863",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-12T23:13:00Z",
     "updatedAt": "2026-09-14T02:13:00Z"
@@ -8644,7 +8644,7 @@
     "name": "Unpatched application dependency — instance 865",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-10T19:14:00Z",
     "updatedAt": "2026-11-12T11:14:00Z"
@@ -8654,7 +8654,7 @@
     "name": "Unpatched application dependency — instance 866",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-23T20:59:00Z",
     "updatedAt": "2026-10-25T11:59:00Z"
@@ -8664,7 +8664,7 @@
     "name": "Weak service account credentials — instance 867",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-06T00:49:00Z",
     "updatedAt": "2026-09-06T23:49:00Z"
@@ -8674,7 +8674,7 @@
     "name": "Insecure session cookie configuration — instance 868",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-10-24T12:06:00Z",
     "updatedAt": "2026-10-25T05:06:00Z"
@@ -8694,7 +8694,7 @@
     "name": "Unrestricted management port — instance 870",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-14T09:51:00Z",
     "updatedAt": "2026-09-15T08:51:00Z"
@@ -8704,7 +8704,7 @@
     "name": "Verbose error messages — instance 871",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-11-21T11:27:00Z",
     "updatedAt": "2026-11-23T08:27:00Z"
@@ -8714,7 +8714,7 @@
     "name": "Unpatched remote access service — instance 872",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-07T18:52:00Z",
     "updatedAt": "2026-11-09T14:52:00Z"
@@ -8734,7 +8734,7 @@
     "name": "Exposed diagnostic endpoint — instance 874",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-15T14:16:00Z",
     "updatedAt": "2026-08-17T12:16:00Z"
@@ -8744,7 +8744,7 @@
     "name": "Verbose error messages — instance 875",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-30T08:07:00Z",
     "updatedAt": "2026-09-30T08:07:00Z"
@@ -8784,7 +8784,7 @@
     "name": "Unrestricted management port — instance 879",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-28T13:18:00Z",
     "updatedAt": "2026-09-29T14:18:00Z"
@@ -8834,7 +8834,7 @@
     "name": "Exposed administrative interface — instance 884",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-09-19T14:58:00Z",
     "updatedAt": "2026-09-19T15:58:00Z"
@@ -8844,7 +8844,7 @@
     "name": "Insecure session cookie configuration — instance 885",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-08T09:00:00Z",
     "updatedAt": "2026-09-09T01:00:00Z"
@@ -8864,7 +8864,7 @@
     "name": "Excessive directory permissions — instance 887",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-23T21:56:00Z",
     "updatedAt": "2026-08-25T01:56:00Z"
@@ -8874,7 +8874,7 @@
     "name": "Unpatched remote access service — instance 888",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "open",
     "createdAt": "2026-10-12T21:48:00Z",
     "updatedAt": "2026-10-14T02:48:00Z"
@@ -8884,7 +8884,7 @@
     "name": "Missing security headers — instance 889",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-04T17:46:00Z",
     "updatedAt": "2026-10-05T15:46:00Z"
@@ -8944,7 +8944,7 @@
     "name": "Exposed diagnostic endpoint — instance 895",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-16T08:38:00Z",
     "updatedAt": "2026-10-17T18:38:00Z"
@@ -8984,7 +8984,7 @@
     "name": "Verbose error messages — instance 899",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-01T22:14:00Z",
     "updatedAt": "2026-09-03T09:14:00Z"
@@ -9014,7 +9014,7 @@
     "name": "Weak service account credentials — instance 902",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-10-29T16:48:00Z",
     "updatedAt": "2026-10-30T19:48:00Z"
@@ -9034,7 +9034,7 @@
     "name": "Outdated TLS configuration — instance 904",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-24T22:59:00Z",
     "updatedAt": "2026-08-25T07:59:00Z"
@@ -9064,7 +9064,7 @@
     "name": "Excessive directory permissions — instance 907",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-30T16:53:00Z",
     "updatedAt": "2026-08-31T08:53:00Z"
@@ -9094,7 +9094,7 @@
     "name": "Exposed diagnostic endpoint — instance 910",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-23T03:34:00Z",
     "updatedAt": "2026-10-23T08:34:00Z"
@@ -9114,7 +9114,7 @@
     "name": "Outdated TLS configuration — instance 912",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-24T21:33:00Z",
     "updatedAt": "2026-09-26T09:33:00Z"
@@ -9124,7 +9124,7 @@
     "name": "Weak service account credentials — instance 913",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-27T10:32:00Z",
     "updatedAt": "2026-09-28T17:32:00Z"
@@ -9134,7 +9134,7 @@
     "name": "Outdated TLS configuration — instance 914",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-25T10:30:00Z",
     "updatedAt": "2026-08-26T00:30:00Z"
@@ -9144,7 +9144,7 @@
     "name": "Insecure session cookie configuration — instance 915",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-15T21:50:00Z",
     "updatedAt": "2026-08-17T05:50:00Z"
@@ -9154,7 +9154,7 @@
     "name": "Excessive directory permissions — instance 916",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-17T01:42:00Z",
     "updatedAt": "2026-09-17T11:42:00Z"
@@ -9164,7 +9164,7 @@
     "name": "Unrestricted management port — instance 917",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-07T15:41:00Z",
     "updatedAt": "2026-09-08T18:41:00Z"
@@ -9174,7 +9174,7 @@
     "name": "Exposed diagnostic endpoint — instance 918",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-20T16:16:00Z",
     "updatedAt": "2026-08-21T00:16:00Z"
@@ -9184,7 +9184,7 @@
     "name": "Verbose error messages — instance 919",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-20T16:29:00Z",
     "updatedAt": "2026-08-22T15:29:00Z"
@@ -9194,7 +9194,7 @@
     "name": "Excessive directory permissions — instance 920",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-16T08:35:00Z",
     "updatedAt": "2026-11-16T22:35:00Z"
@@ -9214,7 +9214,7 @@
     "name": "Exposed diagnostic endpoint — instance 922",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-24T13:57:00Z",
     "updatedAt": "2026-10-25T12:57:00Z"
@@ -9224,7 +9224,7 @@
     "name": "Excessive directory permissions — instance 923",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-02T00:13:00Z",
     "updatedAt": "2026-08-02T18:13:00Z"
@@ -9234,7 +9234,7 @@
     "name": "Exposed diagnostic endpoint — instance 924",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-29T20:46:00Z",
     "updatedAt": "2026-10-30T01:46:00Z"
@@ -9244,7 +9244,7 @@
     "name": "Unrestricted management port — instance 925",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-12T05:20:00Z",
     "updatedAt": "2026-08-13T15:20:00Z"
@@ -9264,7 +9264,7 @@
     "name": "Insecure session cookie configuration — instance 927",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-15T20:55:00Z",
     "updatedAt": "2026-11-17T15:55:00Z"
@@ -9274,7 +9274,7 @@
     "name": "Exposed diagnostic endpoint — instance 928",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-01T07:46:00Z",
     "updatedAt": "2026-11-02T16:46:00Z"
@@ -9284,7 +9284,7 @@
     "name": "Unrestricted management port — instance 929",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-20T15:08:00Z",
     "updatedAt": "2026-09-21T23:08:00Z"
@@ -9304,7 +9304,7 @@
     "name": "Verbose error messages — instance 931",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-11T10:12:00Z",
     "updatedAt": "2026-09-12T00:12:00Z"
@@ -9314,7 +9314,7 @@
     "name": "Missing security headers — instance 932",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-01T18:07:00Z",
     "updatedAt": "2026-08-03T05:07:00Z"
@@ -9334,7 +9334,7 @@
     "name": "Unrestricted management port — instance 934",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-21T17:30:00Z",
     "updatedAt": "2026-11-22T16:30:00Z"
@@ -9344,7 +9344,7 @@
     "name": "Weak service account credentials — instance 935",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-04T05:07:00Z",
     "updatedAt": "2026-09-05T01:07:00Z"
@@ -9374,7 +9374,7 @@
     "name": "Outdated TLS configuration — instance 938",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-24T21:25:00Z",
     "updatedAt": "2026-09-26T15:25:00Z"
@@ -9384,7 +9384,7 @@
     "name": "Exposed diagnostic endpoint — instance 939",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-01T21:49:00Z",
     "updatedAt": "2026-09-02T14:49:00Z"
@@ -9394,7 +9394,7 @@
     "name": "Unpatched remote access service — instance 940",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-25T06:01:00Z",
     "updatedAt": "2026-10-25T12:01:00Z"
@@ -9404,7 +9404,7 @@
     "name": "Weak service account credentials — instance 941",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-04T01:20:00Z",
     "updatedAt": "2026-08-05T02:20:00Z"
@@ -9424,7 +9424,7 @@
     "name": "Exposed diagnostic endpoint — instance 943",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-25T16:15:00Z",
     "updatedAt": "2026-08-25T16:15:00Z"
@@ -9434,7 +9434,7 @@
     "name": "Exposed administrative interface — instance 944",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-16T17:14:00Z",
     "updatedAt": "2026-10-18T03:14:00Z"
@@ -9464,7 +9464,7 @@
     "name": "Insecure session cookie configuration — instance 947",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-11-09T08:23:00Z",
     "updatedAt": "2026-11-11T03:23:00Z"
@@ -9484,7 +9484,7 @@
     "name": "Unpatched application dependency — instance 949",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-23T12:34:00Z",
     "updatedAt": "2026-10-24T03:34:00Z"
@@ -9504,7 +9504,7 @@
     "name": "Weak service account credentials — instance 951",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-14T05:19:00Z",
     "updatedAt": "2026-08-16T02:19:00Z"
@@ -9524,7 +9524,7 @@
     "name": "Exposed administrative interface — instance 953",
     "description": "An administrative interface is reachable from an untrusted network.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-29T13:30:00Z",
     "updatedAt": "2026-10-30T17:30:00Z"
@@ -9554,7 +9554,7 @@
     "name": "Outdated TLS configuration — instance 956",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-18T23:36:00Z",
     "updatedAt": "2026-09-20T04:36:00Z"
@@ -9594,7 +9594,7 @@
     "name": "Missing security headers — instance 960",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-24T14:12:00Z",
     "updatedAt": "2026-10-26T07:12:00Z"
@@ -9634,7 +9634,7 @@
     "name": "Exposed diagnostic endpoint — instance 964",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-10T04:16:00Z",
     "updatedAt": "2026-08-10T08:16:00Z"
@@ -9654,7 +9654,7 @@
     "name": "Weak service account credentials — instance 966",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-14T22:46:00Z",
     "updatedAt": "2026-09-16T08:46:00Z"
@@ -9664,7 +9664,7 @@
     "name": "Unpatched application dependency — instance 967",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-25T01:42:00Z",
     "updatedAt": "2026-11-26T13:42:00Z"
@@ -9684,7 +9684,7 @@
     "name": "Unpatched application dependency — instance 969",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-23T12:09:00Z",
     "updatedAt": "2026-08-24T20:09:00Z"
@@ -9744,7 +9744,7 @@
     "name": "Verbose error messages — instance 975",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-19T07:19:00Z",
     "updatedAt": "2026-09-20T09:19:00Z"
@@ -9784,7 +9784,7 @@
     "name": "Exposed diagnostic endpoint — instance 979",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-18T17:48:00Z",
     "updatedAt": "2026-10-19T13:48:00Z"
@@ -9804,7 +9804,7 @@
     "name": "Missing multifactor authentication — instance 981",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-11-22T21:41:00Z",
     "updatedAt": "2026-11-24T18:41:00Z"
@@ -9824,7 +9824,7 @@
     "name": "Unpatched remote access service — instance 983",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-30T21:17:00Z",
     "updatedAt": "2026-09-30T23:17:00Z"
@@ -9834,7 +9834,7 @@
     "name": "Insecure session cookie configuration — instance 984",
     "description": "A session cookie lacks recommended security attributes.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-10T14:32:00Z",
     "updatedAt": "2026-08-11T06:32:00Z"
@@ -9854,7 +9854,7 @@
     "name": "Weak service account credentials — instance 986",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-09-23T18:01:00Z",
     "updatedAt": "2026-09-24T22:01:00Z"
@@ -9874,7 +9874,7 @@
     "name": "Missing security headers — instance 988",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-28T11:10:00Z",
     "updatedAt": "2026-10-28T21:10:00Z"
@@ -9884,7 +9884,7 @@
     "name": "Exposed diagnostic endpoint — instance 989",
     "description": "A diagnostic endpoint reveals non-sensitive service metadata.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-05T22:55:00Z",
     "updatedAt": "2026-11-06T01:55:00Z"
@@ -9894,7 +9894,7 @@
     "name": "Missing security headers — instance 990",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-11-05T03:38:00Z",
     "updatedAt": "2026-11-05T21:38:00Z"
@@ -9904,7 +9904,7 @@
     "name": "Unpatched remote access service — instance 991",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-09-19T15:19:00Z",
     "updatedAt": "2026-09-20T08:19:00Z"
@@ -9914,7 +9914,7 @@
     "name": "Missing security headers — instance 992",
     "description": "A web application lacks recommended response headers.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-10-28T21:57:00Z",
     "updatedAt": "2026-10-29T16:57:00Z"
@@ -9924,7 +9924,7 @@
     "name": "Unpatched remote access service — instance 993",
     "description": "A simulated remote access service is missing a security update.",
     "severity": "critical",
-    "status": "assigned",
+    "status": "red team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-31T14:43:00Z",
     "updatedAt": "2026-08-31T15:43:00Z"
@@ -9964,7 +9964,7 @@
     "name": "Excessive directory permissions — instance 997",
     "description": "A shared directory grants broader access than required.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-20T14:47:00Z",
     "updatedAt": "2026-08-21T00:47:00Z"
@@ -9984,7 +9984,7 @@
     "name": "Verbose error messages — instance 999",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-08-01T09:26:00Z",
     "updatedAt": "2026-08-01T10:26:00Z"
@@ -10004,7 +10004,7 @@
     "name": "Unrestricted management port — instance 1001",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-19T01:36:00Z",
     "updatedAt": "2026-09-19T08:36:00Z"
@@ -10034,7 +10034,7 @@
     "name": "Unrestricted management port — instance 1004",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-05T14:54:00Z",
     "updatedAt": "2026-09-06T15:54:00Z"
@@ -10054,7 +10054,7 @@
     "name": "Outdated TLS configuration — instance 1006",
     "description": "A service permits deprecated TLS protocol versions.",
     "severity": "medium",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-07T14:52:00Z",
     "updatedAt": "2026-10-07T14:52:00Z"
@@ -10124,7 +10124,7 @@
     "name": "Weak service account credentials — instance 1013",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "in_progress",
     "createdAt": "2026-08-24T21:17:00Z",
     "updatedAt": "2026-08-25T08:17:00Z"
@@ -10154,7 +10154,7 @@
     "name": "Missing multifactor authentication — instance 1016",
     "description": "An administrative account does not enforce MFA.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-08-03T14:36:00Z",
     "updatedAt": "2026-08-04T12:36:00Z"
@@ -10164,7 +10164,7 @@
     "name": "Unrestricted management port — instance 1017",
     "description": "A management service is accessible outside its intended network segment.",
     "severity": "high",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "resolved",
     "createdAt": "2026-09-03T08:09:00Z",
     "updatedAt": "2026-09-04T08:09:00Z"
@@ -10174,7 +10174,7 @@
     "name": "Unpatched application dependency — instance 1018",
     "description": "An application dependency requires a security update.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "resolved",
     "createdAt": "2026-10-06T06:12:00Z",
     "updatedAt": "2026-10-07T19:12:00Z"
@@ -10204,7 +10204,7 @@
     "name": "Verbose error messages — instance 1021",
     "description": "Application errors disclose unnecessary implementation details.",
     "severity": "low",
-    "status": "assigned",
+    "status": "blue team",
     "remediationStatus": "open",
     "createdAt": "2026-08-27T10:20:00Z",
     "updatedAt": "2026-08-27T11:20:00Z"
@@ -10214,7 +10214,7 @@
     "name": "Weak service account credentials — instance 1022",
     "description": "A service account uses credentials that do not meet policy.",
     "severity": "high",
-    "status": "assigned",
+    "status": "green team",
     "remediationStatus": "open",
     "createdAt": "2026-09-11T02:41:00Z",
     "updatedAt": "2026-09-11T21:41:00Z"
