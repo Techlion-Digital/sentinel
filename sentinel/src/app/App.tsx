@@ -14,7 +14,6 @@ function App() {
 
       { /* Content Area */ }
       <div className="content">
-        <Sidebar />
         <MainContent />
       </div>
 

@@ -61,3 +61,24 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.vulnerabilities-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+
+.vulnerabilities-container p {
+    margin:0 0 20px 20px;
+    font-size: 1rem;
+    color: #fff;
+}

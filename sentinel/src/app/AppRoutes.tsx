@@ -13,7 +13,7 @@ function AppRoutes() {
     return (
         <Routes>
             <Route path="/" element={<App />}>
-                <Route index element={<Analytics />} />
+                <Route index element={<Vulnerabilities />} />
                 <Route path="analytics" element={<Analytics />} />
                 <Route path="assets" element={<Assets />} />
                 <Route path="vulnerabilities" element={<Vulnerabilities />} />
